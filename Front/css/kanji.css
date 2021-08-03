@@ -3,48 +3,48 @@
   font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 300;
-  src: url('fonts/kiwi-maru-v4-latin_japanese-300.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/kiwi-maru-v4-latin_japanese-300.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('fonts/kiwi-maru-v4-latin_japanese-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/kiwi-maru-v4-latin_japanese-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/kiwi-maru-v4-latin_japanese-300.woff') format('woff'), /* Modern Browsers */
-       url('fonts/kiwi-maru-v4-latin_japanese-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/kiwi-maru-v4-latin_japanese-300.svg#KiwiMaru') format('svg'); /* Legacy iOS */
+       url('../fonts/kiwi-maru-v4-latin_japanese-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/kiwi-maru-v4-latin_japanese-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/kiwi-maru-v4-latin_japanese-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/kiwi-maru-v4-latin_japanese-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/kiwi-maru-v4-latin_japanese-300.svg#KiwiMaru') format('svg'); /* Legacy iOS */
 }
 /* kiwi-maru-regular - latin_japanese */
 @font-face {
   font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/kiwi-maru-v4-latin_japanese-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/kiwi-maru-v4-latin_japanese-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('fonts/kiwi-maru-v4-latin_japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/kiwi-maru-v4-latin_japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/kiwi-maru-v4-latin_japanese-regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/kiwi-maru-v4-latin_japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/kiwi-maru-v4-latin_japanese-regular.svg#KiwiMaru') format('svg'); /* Legacy iOS */
+       url('../fonts/kiwi-maru-v4-latin_japanese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/kiwi-maru-v4-latin_japanese-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/kiwi-maru-v4-latin_japanese-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/kiwi-maru-v4-latin_japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/kiwi-maru-v4-latin_japanese-regular.svg#KiwiMaru') format('svg'); /* Legacy iOS */
 }
 /* kiwi-maru-500 - latin_japanese */
 @font-face {
   font-family: 'Kiwi Maru';
   font-style: normal;
   font-weight: 500;
-  src: url('fonts/kiwi-maru-v4-latin_japanese-500.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/kiwi-maru-v4-latin_japanese-500.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('fonts/kiwi-maru-v4-latin_japanese-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/kiwi-maru-v4-latin_japanese-500.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/kiwi-maru-v4-latin_japanese-500.woff') format('woff'), /* Modern Browsers */
-       url('fonts/kiwi-maru-v4-latin_japanese-500.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/kiwi-maru-v4-latin_japanese-500.svg#KiwiMaru') format('svg'); /* Legacy iOS */
+       url('../fonts/kiwi-maru-v4-latin_japanese-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/kiwi-maru-v4-latin_japanese-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/kiwi-maru-v4-latin_japanese-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/kiwi-maru-v4-latin_japanese-500.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/kiwi-maru-v4-latin_japanese-500.svg#KiwiMaru') format('svg'); /* Legacy iOS */
 }
 @font-face {
   font-family: 'Pixelant';
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('fonts/Pixelant-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/Pixelant-Regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/Pixelant Regular.ttf') format('truetype') /* Safari, Android, iOS */
+       url('../fonts/Pixelant-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Pixelant-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Pixelant Regular.ttf') format('truetype') /* Safari, Android, iOS */
 }
 html {
 	font-family: 'Pixelant';
@@ -108,7 +108,7 @@ menu a {
 	height: 40px;
 	margin: auto 0;
 	margin-left: auto;
-	background-image: url('budka1.png');
+	background-image: url('../img/budka1.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: white;
@@ -154,7 +154,7 @@ menu a {
 	height: 123px;
 }
 #close {
-	background-image: url('close.png');
+	background-image: url('../img/close.png');
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 50px;
@@ -293,7 +293,6 @@ menu a {
 	left: 20px;
 	width: 110%;
 	border-radius: 20px;
-	background-image: url('doge2.png');
 	background-color: transparent;
 
 }
@@ -301,7 +300,7 @@ menu a {
 	-webkit-appearance: none;
 	height: 180px;
 	width: 300px;
-	background-image: url('curtain1.png');
+	background-image: url('../img/curtain1.png');
 	background-position: center;
 	z-index: 10;
 	box-shadow: 2px 2px 10px 1px;
