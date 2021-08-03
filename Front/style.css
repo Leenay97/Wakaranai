@@ -5,7 +5,7 @@
   src: local(''),
        url('fonts/Pixelant-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('fonts/Pixelant-Regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/Pixelant Regular.ttf.ttf') format('truetype') /* Safari, Android, iOS */
+       url('fonts/Pixelant Regular.ttf') format('truetype') /* Safari, Android, iOS */
 }
 html {
 	font-family: 'Pixelant';
@@ -60,7 +60,6 @@ menu div:hover {
 menu a {
 	color: black;
 	font-size: 24px;
-	display: 
 	border: 1px;
 }
 #sun {
