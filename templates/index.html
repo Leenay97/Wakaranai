@@ -8,19 +8,19 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" >
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<script type="text/javascript" src="../static/js/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript" src="../static/js/script.js"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js"' %}"></script>
+	<script type="text/javascript" src="{% static 'js/script.js"' %}"></script>
 </head>
 <body>
 	<div id="lock-screen">
 		<div id="hello">
-			<img id="img" src="../static/img/doge2.gif">
+			<img id="img" src="{% static 'img/doge2.gif"' %}">
 			<button id="close"></button>
 		</div>
 	</div>
 	<header>
 		<menu class="fixed-container">
-			<a href=""><img src="../static/img/logo-long.png"></a>
+			<a href=""><img src="{% static 'img/logo-long.png"' %}"></a>
 			<a href="#"><div>Лексика</div></a>
 			<a href="/kanji"><div>Кандзи</div></a>
 			<a href="#"><div>Грамматика</div></a>
