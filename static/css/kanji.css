@@ -299,10 +299,11 @@ menu a {
 	-webkit-appearance: none;
 	height: 180px;
 	width: 300px;
-	background-image: url('../img/curtain1.png');
+	background-image: url('../img/curtain2.png');
 	background-position: center;
+	background-repeat: no-repeat;
 	z-index: 10;
-	box-shadow: 2px 2px 10px 1px;
+	/*box-shadow: 2px 2px 10px 1px;*/
 
 }
 .curtain-button {
