@@ -1,28 +1,37 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/kanji.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/kanji-media.css' %}">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/kanji.js' %}"></script>
 	<title>Кандзи</title>
 
 </head>
 <body>
 <header>
-		<menu class="fixed-container">
-			<a href="/"><img src="{% static 'img/logo-long.png' %}"></a>
-			<a href="#"><div>Лексика</div></a>
-			<a href="/kanji"><div>Кандзи</div></a>
-			<a href="#"><div>Грамматика</div></a>
+		<nav class="fixed-container">
+			<button id="menu-button"></button>
+			<a id="logo-wrapper" href="/"><img id="logo" src="{% static 'img/logo-long.png' %}"></a>
+				<a href="#"><div>Лексика</div></a>
+				<a href="/kanji"><div>Кандзи</div></a>
+				<a href="#"><div>Грамматика</div></a>
 			<button id="doge-button"></button>		
-		</menu>
+		</nav>
 </header>
 <main>
+	<div id="menu-small" class="hidden">
+				<a href="#"><div>Лексика</div></a>
+				<a href="/kanji"><div>Кандзи</div></a>
+				<a href="#"><div>Грамматика</div></a>
+			</div>
 	<div class="fixed-container">
 		<h1>Basic Kanji Book I</h1>
 		<div id="lessons-container">
-			<a href="kanji/bkb1-1.html"><div class="lesson">
+			<a href="/bkb1-1.html"><div class="lesson">
 				<div class="lesson-name">Lesson 1</div>
 				<div class="kanji-container">
 					日月木山川田人口車門
