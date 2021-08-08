@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    {% block headers %}
+    {% endblock %}
+	<title>{% block title %}{% endblock %}</title>
+
+</head>
+<body>
+
+	<header>
+		<menu class="fixed-container">
+			<button id="menu-button" class="hidden"></button>
+			<a href="/" id="logo-wrapper"><img id="logo" src="{% static 'img/logo-long.png' %}"></a>
+			<a href="#"><div>Лексика</div></a>
+			<a href="/kanji"><div>Кандзи</div></a>
+			<a href="#"><div>Грамматика</div></a>
+			<button id="doge-button"></button>
+		</menu>
+	</header>
+	<main>
+		<div id="lock-screen">
+		<div id="hello">
+			<img id="img" src="{% static 'img/doge2.gif' %}">
+			<button id="close"></button>
+		</div>
+	</div>
+		<div id="menu-small" class="hidden">
+			<a href="#"><div>Лексика</div></a>
+			<a href="/kanji"><div>Кандзи</div></a>
+			<a href="#"><div>Грамматика</div></a>
+		</div>
+
+        {% block main %}
+
+        {% endblock %}
+
+	</main>
+	<footer>
+
+
+	</footer>
+</body>
+</html>

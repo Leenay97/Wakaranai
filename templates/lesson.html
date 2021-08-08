@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}BKB1 Lesson 1{% endblock %}
+
+{% block headers %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji.css' %}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/lesson.js' %}"></script>
+{% endblock %}
+
+{% block main %}
+    <div class="fixed-container">
+        <h1>Lesson {{ lesson_number }}</h1>
+        {% for kanji in kanjis %}
+            <div class="lesson-kanji-container">
+                <div class="icon hidden">日</div>
+
+                <img class="hide" src="{% static 'img/hide-button.png' %}">
+                <img class="curtain-button" src="{% static 'img/curtain-icon.png' %}">
+                <input type="range" name="" class="curtain hidden">
+                <img class="kanji-gif" src="{% static 'kanji%20gif/' %}{{ kanji.kanji_gif }}">
+                <div class="read">
+                    <div class="on">
+                        {{ kanji.reading_example_first }}
+                    </div>
+                    <div class="kun">
+                        {{ kanji.reading_example_second }}
+                    </div>
+                </div>
+                <div class="examples">
+                    <div class="kanji">
+                        {% for word in kanji.words_example %}
+                            {{ word }} <br>
+                        {% endfor %}
+                    </div>
+                    <div class="transcription">
+                        {% for word in kanji.transcription %}
+                            {{ word }} <br>
+                        {% endfor %}
+                    </div>
+                    <div class="translation">
+                        {% for word in kanji.words_translated_example %}
+                            {{ word }} <br>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
