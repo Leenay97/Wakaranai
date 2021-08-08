@@ -15,6 +15,7 @@ class BookAdmin(admin.ModelAdmin):
         "title"
     ]
 
+
 class LessonAdmin(admin.ModelAdmin):
     list_display = [
         "lesson_number",
