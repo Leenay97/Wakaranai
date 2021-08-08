@@ -9,13 +9,24 @@
 }
 html {
 	font-family: 'Pixelant';
+	min-width: 320px;
 }
 body {
  margin: 0;
  overflow: hidden;
+ min-width: 320px;
+}
+button {
+	padding: 0;
 }
 a {
 	text-decoration: none;
+}
+.hidden {
+	display: none;
+}
+.noscroll {
+	overflow: hidden;
 }
 main {
 	height: 600px;
@@ -30,8 +41,6 @@ main {
 }
 main img {
 	overflow: hidden;
-}
-header {
 }
 menu {
 	margin: 0;
@@ -61,6 +70,43 @@ menu a {
 	color: black;
 	font-size: 24px;
 	border: 1px;
+}
+#menu-button {
+	height: 20px;
+	width: 25px;
+	padding: 0;
+	background-image: url('../img/menu-button.png');
+	background-size: contain;
+	border: 0;
+	background-color: transparent;
+	margin: auto 0;
+	display: none;
+	box-shadow: 0 0 5px 1px #00000011;
+	min-width: 25px;
+}
+#menu-small {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 20px;
+	box-sizing: border-box	;
+	z-index: 20;
+}
+#menu-small div {
+	padding: 15px 0 10px 0;
+	border-bottom: 1px solid #22222222 ;
+}
+#menu-small a {
+	color: black;
+}
+
+#logo-wrapper {
+	height: 50px;
+	margin: auto 0;
+	padding: 0;
 }
 #sun {
 	opacity:0.9; 
@@ -95,6 +141,7 @@ menu a {
 	border: 0;
 	border-radius: 50%;
 	box-shadow: #00000055 2px 2px 3px 1px;
+	min-width: 30px;
 }
 #doge-button:hover {
 	box-shadow: #00000055 2px 2px 1px 1px;
@@ -120,12 +167,13 @@ menu a {
 	height: 300px;
 	background-color: #ded0c1;
 	border: 10px solid brown;
-	position: relative;
-	top: 50%;
+	position: absolute;
+	bottom: 20px;
 	left: 50%;
 	margin-left: -300px;
 	font-size: 32px;
 	display: flex;
+	justify-content: space-between;
 }
 #hello img {
 	margin-left: 40px;
@@ -136,13 +184,13 @@ menu a {
 #close {
 	background-image: url('../img/close.png');
 	background-repeat: no-repeat;
-	height: 50px;
-	width: 50px;
-	position: absolute;
-	top: 20px;
-	right: 20px;
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
 	border: 0;
 	background-color: transparent;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 .cloud {
 	position: absolute;
@@ -152,8 +200,6 @@ menu a {
 	z-index: 1;
 	animation: clouds 200s linear infinite alternate forwards;
 }
-.cloud:hover {
-}	
 #sakura {
 	
 	position: absolute;

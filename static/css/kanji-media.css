@@ -1,0 +1,75 @@
+@media (max-width: 1440px){
+    .fixed-container {
+        padding: 0 20px;
+    }
+}
+@media (max-width: 768px){
+    header {
+        height: 40px;
+    }
+    main {
+        margin-top: 60px;
+    }
+    #doge-button {
+        height: 30px;
+        width: 30px;
+        background-size: 70%;
+    }
+    #doge-button:hover {
+        box-shadow: #00000055 2px 2px 1px 1px;
+        width: 28px;
+        height: 28px;
+    }
+    #doge-button:active {
+        width: 26px;
+        height: 26px;
+        box-shadow: #00000055 0px 0px 0px 0px;
+    }
+    nav {
+        height: 40px;
+    }
+    #logo {
+        height: 30px;
+    }
+    #logo-wrapper {
+        height: 30px;
+        margin-right: 20px;
+    }
+    nav div {
+        padding: 10px 15px;
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 585px){
+    nav a:nth-child(3){
+        display: none;
+    }
+    nav a:nth-child(4){
+        display: none;
+    }
+    nav a:nth-child(5){
+        display: none;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    #doge-button {
+        margin-left: 0;
+    }
+    #menu-button {
+        display: block;
+    }
+
+}
+@media (max-width: 499px){
+    .lesson{
+        height: 240px;
+        width: 240px;
+        font-size: 28px;
+
+    }
+    h1 {
+        font-size: 38px;
+    }
+}
