@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Кандзи{% endblock %}
+
+{% block headers %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji-media.css' %}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/kanji.js' %}"></script>
+{% endblock %}
+
+{% block main %}
+    <div class="fixed-container">
+        {% if context %}
+            {% for item in context %}
+                <h1>{{ item.book.title }}</h1>
+                <div id="lessons-container">
+                    {% for lesson in item.lessons %}
+                        <a href="lesson/{{ lesson.id }}">
+                            <div class="lesson">
+                                <div class="lesson-name">Lesson {{ lesson.lesson_number }}</div>
+                                <div class="kanji-container">
+                                    {{ lesson.kanji_example }}
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>пока ничего нет :(</p>
+        {% endif %}
+    </div>
+{% endblock %}
