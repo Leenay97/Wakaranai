@@ -13,6 +13,13 @@
 {% endblock %}
 
 {% block main %}
-    <img id="sakura" src="{% static 'img/sakura5.gif' %}">
-    <img class="cloud" src="{% static 'img/cloud.png' %}">
+	<div id="header-space"></div>
+	<div id="sakura-wrapper">
+	<div id="sakura-background">
+    	<img id="sakura" src ="{% static 'img/sakura5.gif' %}">
+    	<img class="cloud" src ="{% static 'img/cloud.png' %}">
+	</div>
+	</div>
+	<div id="whiteboard2" style="height: 2000px; width: 100%; background: white; margin-top: 550px;"></div>
+
 {% endblock %}

@@ -1,0 +1,74 @@
+@media (max-width: 1290px){
+    .lesson-content {
+        justify-content: space-evenly;
+        max-height: 440px;
+    }
+}
+@media (max-width: 1129px){
+    .lesson-content {
+        flex-wrap: wrap;
+    }
+    .examples {
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #22222222;
+        padding: 20px 30px 0 30px;
+        justify-content: space-evenly;
+    }
+    button {
+        margin: 0;
+    }
+    .kanji-gif {
+        height: 150px;
+        width: 150px;
+        margin: auto 0;
+    }
+}
+@media (max-width: 740px){
+    .read {
+        font-size: 18px;
+    }
+    .examples {
+        font-size: 16px;
+    }
+    .kanji {
+        width: 70px;
+    }
+    .transcription {
+        max-width: 200px;
+        text-align: center;
+        color: #333333aa;
+    }
+    .translation {
+        width: 140px;
+        font-family: 'Pixelant';
+        line-height: 1.53em;
+        color: black;
+    }
+}
+@media (max-width: 509px){
+    .kanji {
+        margin-right: 20px;
+    }
+    .transcription {
+        width: 30px;
+        margin: 0;
+        margin-right: 10px;
+        max-width: auto;
+        background-color: #efefef;
+		color: #efefef;
+		border: 1px solid #22222222;
+    }
+    .transcription > .arrow {
+        display: block;
+    }
+    .translation {
+        padding-left: 0;
+    }
+    
+
+    .examples {
+        justify-content: space-between;
+    }
+}

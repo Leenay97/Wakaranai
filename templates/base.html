@@ -2,22 +2,28 @@
 {% load static %}
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+	
     {% block headers %}
     {% endblock %}
+	
 	<title>{% block title %}{% endblock %}</title>
+	
 
 </head>
 <body>
 
 	<header>
-		<menu class="fixed-container">
+		<nav class="fixed-container">
 			<button id="menu-button" class="hidden"></button>
 			<a href="/" id="logo-wrapper"><img id="logo" src="{% static 'img/logo-long.png' %}"></a>
 			<a href="#"><div>Лексика</div></a>
 			<a href="/kanji"><div>Кандзи</div></a>
 			<a href="#"><div>Грамматика</div></a>
 			<button id="doge-button"></button>
-		</menu>
+		</nav>
 	</header>
 	<main>
 		<div id="lock-screen">

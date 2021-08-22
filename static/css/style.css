@@ -1,34 +1,11 @@
-@font-face {
-  font-family: 'Pixelant';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/Pixelant-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Pixelant-Regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Pixelant Regular.ttf') format('truetype') /* Safari, Android, iOS */
+
+#header-space {
+	height: 60px; 
+	width: 100%; 
+	background: white;
+
 }
-html {
-	font-family: 'Pixelant';
-	min-width: 320px;
-}
-body {
- margin: 0;
- overflow: hidden;
- min-width: 320px;
-}
-button {
-	padding: 0;
-}
-a {
-	text-decoration: none;
-}
-.hidden {
-	display: none;
-}
-.noscroll {
-	overflow: hidden;
-}
-main {
+#sakura-background {
 	height: 600px;
 	/*background: linear-gradient(#ffcaff, #e7b6be, #50dafa10);*/
 	background-image: url('../img/sky.png');
@@ -37,77 +14,17 @@ main {
 	background-position-y: -3000px;
 	overflow: hidden;
 	position: relative;
-	animation: sky-morning 10s linear infinite forwards;
+	/*animation: sky-morning 10s linear infinite forwards;*/
+	
 }
-main img {
-	overflow: hidden;
-}
-menu {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: flex-start;
-	margin: 0 auto;
-	height: 60px;
-
-}
-menu a:first-child {
-	padding: 0;
-	margin: auto 0;
-
-}
-menu div {
-	padding: 20px 30px;
-	padding-bottom: 10px;
-
-
-}
-menu div:hover {
-	border-bottom: 4px solid /*#80aaff*/ #cc0000;
-	background-color: #dddddd;
-}
-menu a {
-	color: black;
-	font-size: 24px;
-	border: 1px;
-}
-#menu-button {
-	height: 20px;
-	width: 25px;
-	padding: 0;
-	background-image: url('../img/menu-button.png');
-	background-size: contain;
-	border: 0;
-	background-color: transparent;
-	margin: auto 0;
-	display: none;
-	box-shadow: 0 0 5px 1px #00000011;
-	min-width: 25px;
-}
-#menu-small {
-	position: absolute;
+#sakura-wrapper {
+	position: fixed;
+	z-index: -1;
+	height: 600px;
 	width: 100%;
-	height: 100%;
-	background-color: white;
-	font-size: 24px;
-	text-align: center;
-	padding: 0 20px;
-	box-sizing: border-box	;
-	z-index: 20;
-}
-#menu-small div {
-	padding: 15px 0 10px 0;
-	border-bottom: 1px solid #22222222 ;
-}
-#menu-small a {
-	color: black;
+
 }
 
-#logo-wrapper {
-	height: 50px;
-	margin: auto 0;
-	padding: 0;
-}
 #sun {
 	opacity:0.9; 
 	float: right; 
@@ -125,34 +42,7 @@ menu a {
 	right: -400px;
 	border-radius: 50%;
 }
-.fixed-container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-#doge-button {
-	width: 40px; 
-	height: 40px;
-	margin: auto 0;
-	margin-left: auto;
-	background-image: url('../img/budka1.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-color: white;
-	border: 0;
-	border-radius: 50%;
-	box-shadow: #00000055 2px 2px 3px 1px;
-	min-width: 30px;
-}
-#doge-button:hover {
-	box-shadow: #00000055 2px 2px 1px 1px;
-	width: 38px;
-	height: 38px;
-}
-#doge-button:active {
-	width: 36px;
-	height: 36px;
-	box-shadow: #00000055 0px 0px 0px 0px;
-}
+
 #lock-screen {
 	width: 100%;
 	height: 100%;
@@ -181,27 +71,20 @@ menu a {
 	width: 105px;
 	height: 123px;
 }
-#close {
-	background-image: url('../img/close.png');
-	background-repeat: no-repeat;
-	background-size: 30px 30px;
-	height: 30px;
-	width: 30px;
-	border: 0;
-	background-color: transparent;
-	margin-top: 20px;
-	margin-right: 20px;
-}
+
 .cloud {
 	position: absolute;
-	width: 400px;
+	width: 300px;
 	top: 250px;
 	left: -400px;
 	z-index: 1;
 	animation: clouds 200s linear infinite alternate forwards;
 }
 #sakura {
-	
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 20px;
 	position: absolute;
 	bottom: 0;
 	z-index: 2;

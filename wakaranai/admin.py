@@ -46,6 +46,7 @@ class KanjiAdmin(admin.ModelAdmin):
 
     fields = [
         "name",
+        "meaning",
         "kanji_gif",
         "reading_example_first",
         "reading_example_second",

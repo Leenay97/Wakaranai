@@ -20,11 +20,12 @@ class Lesson(models.Model):
 
 class Kanji(models.Model):
     name = models.CharField(max_length=10, blank=True, null=True)
+    meaning = models.CharField(max_length=50, blank=True, null=True)
     kanji_gif = models.CharField(max_length=50, blank=True, null=True)
     reading_example_first = models.CharField(max_length=50, blank=True, null=True)
     reading_example_second = models.CharField(max_length=50, blank=True, null=True)
-    words_example = models.JSONField(null=True, blank=True)
-    words_translated_example = models.JSONField(null=True, blank=True)
-    transcription = models.JSONField(null=True, blank=True)
+    words_example = models.TextField(max_length=50, null=True, blank=True)
+    words_translated_example = models.TextField(max_length=100, null=True, blank=True)
+    transcription = models.TextField(max_length=50, null=True, blank=True)
     lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE, null=True)
     added = models.DateTimeField(auto_now_add=True, null=True, blank=True)
