@@ -6,6 +6,9 @@
     width: 30px;
 	margin: 0;
 }
+#main-container {
+    margin-bottom: 30px;
+}
   #lessons-container {
       display: flex;
       justify-content: space-evenly;
