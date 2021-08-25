@@ -2,6 +2,7 @@
 {% load static %}
 <html>
 <head>
+	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}"/>
 	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
 	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
@@ -22,7 +23,7 @@
 			<a href="#"><div>Лексика</div></a>
 			<a href="/kanji"><div>Кандзи</div></a>
 			<a href="#"><div>Грамматика</div></a>
-			<button id="doge-button"></button>
+			<button id="doge-button" hidden></button>
 		</nav>
 	</header>
 	<main>
@@ -43,9 +44,31 @@
         {% endblock %}
 
 	</main>
-	<footer>
-
-
+	<footer id="footer">
+		<div class="fixed-container" id="footer__info">
+			<div id="footer__info_menu">
+				<ul>
+					<li><a href="/">Главная</a></li>
+					<li><a href="#">Лексика</a></li>
+					<li><a href="/kanji">Кандзи</a></li>
+					<li><a href="#">Грамматика</a></li>
+				</ul>
+			</div>
+			<div id="footer__info_feedback">
+					<button>Обратная связь</button>
+			</div>
+			<div id="footer__info_contacts">
+				<div id="footer__info_contacts-vk">
+					<a target="_blank" href="https://vk.com/leenay">vk.com/leenay97</a>
+				</div>
+				<div id="footer__info_contacts-email">
+					leenay97@gmail.com
+				</div>
+			</div>
+		</div>
+		<div id="footer__footer">
+			Не для коммерческого использования. Некоторые материалы получены со сторонних сайтов.
+		</div>
 	</footer>
 </body>
 </html>

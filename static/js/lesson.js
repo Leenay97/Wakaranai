@@ -107,7 +107,7 @@ $(function(){
 			'background-color':'white'
 		});
 		$('.translation').css({
-			'width': '140px',
+			'width': '180px',
         	'font-family': '"Pixelant"',
         	'line-height': '1.53em',
         	'color': 'black',

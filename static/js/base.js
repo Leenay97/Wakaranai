@@ -1,5 +1,4 @@
 $(function(){
-	console.log('1');
 	$('#doge-button').on('click', function(){
 		$('#lock-screen').css('display', 'block');
 		$('#lock-screen').animate({opacity: "1"}, 500);
