@@ -6,6 +6,9 @@
     width: 30px;
 	margin: 0;
 }
+#main-container {
+    margin-bottom: 30px;
+}
   #lessons-container {
       display: flex;
       justify-content: space-evenly;
@@ -105,13 +108,14 @@
       width: 280px;
       margin: auto 20px;
       font-size: 24px;
-      font-family:　'Kiwi Maru';
+      font-family: 'Sawarabi Gothic';
       text-align: center;
   }
   .on {
       border-bottom: 2px solid #22222222;
   }
   .examples {
+      font-family: 'Sawarabi Gothic';
       text-align: left;
       width: 600px;
       display: flex;

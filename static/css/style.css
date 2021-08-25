@@ -1,17 +1,18 @@
 
 #header-space {
-	height: 60px; 
+	height: 1px; 
 	width: 100%; 
-	background: white;
+	background: transparent;
 
 }
 #sakura-background {
-	height: 600px;
+	height: 3000px;
 	/*background: linear-gradient(#ffcaff, #e7b6be, #50dafa10);*/
 	background-image: url('../img/sky.png');
 	background-position: bottom;
-	background-repeat: no-repeat;
-	background-position-y: -3000px;
+	background-repeat: repeat-x;
+	/*background-position-y: -3000px;*/
+	background-attachment: fixed;
 	overflow: hidden;
 	position: relative;
 	/*animation: sky-morning 10s linear infinite forwards;*/
@@ -22,6 +23,8 @@
 	z-index: -1;
 	height: 600px;
 	width: 100%;
+	margin-top: -20px;
+	overflow: hidden;
 
 }
 
@@ -75,9 +78,9 @@
 .cloud {
 	position: absolute;
 	width: 300px;
-	top: 250px;
-	left: -400px;
-	z-index: 1;
+	top: 300px;
+	left: 0;
+	z-index: 3;
 	animation: clouds 200s linear infinite alternate forwards;
 }
 #sakura {
@@ -89,13 +92,46 @@
 	bottom: 0;
 	z-index: 2;
 }
-#main-text span{
+#sakura-text{
 	font-size: 90px;
-	margin-left: 900px;
-	margin-top: 100px;
+	right: 200px;
+	top: 150px;
 	position: absolute;
 	color: white;
 	text-shadow: 0px 0px 5px black;
+	z-index: 10;
+}
+#sakura-logo__container {
+	position: relative;
+}
+#sakura-logo {
+	position: absolute;
+	top: 0px;
+	right: 400px;
+}
+#sakura-logo_waka {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+
+}
+#sakura-logo_ranai {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	z-index: 0;
+	opacity: 0;
+}
+#sakura-logo img{
+	height: 300px;
+}
+.sakura-logo-up{
+	top: -400px;
+}
+.sakura-logo-down{
+	top: 700px;
 }
 #time {
 	-webkit-appearance: none;
@@ -117,9 +153,61 @@
 
 	
 }
+
+#title {
+	height: auto; 
+	width: 100%; 
+	background: transparent; 
+	margin-top: 600px;
+	color: black;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 500;
+}
+#title::after{
+	display: block;
+	content: '';
+	width: 120px;
+	height: 1px;
+	margin: 20px auto 30px auto;
+	border-bottom: 5px solid #fff;
+}
+#whiteboard {
+	height: auto; 
+	width: 100%; 
+}
+/*#whiteboard::before {
+	display: block;
+	content: "";
+	height: 60px;
+	background: linear-gradient(#ffffff00, #ffffff);
+}*/
+#info-container {
+	display: flex;
+	padding-bottom: 60px;
+	justify-content: space-evenly;
+	background-color: white;
+	
+	
+}
+.info-container_unit h1 {	
+	text-align: center;
+}
+.info-container_unit {
+	padding: 0 20px;
+	text-align: center;
+	flex-basis: 300px;
+}
+.info-container_unit_img {
+	height: 120px;
+	margin: 30px auto 30px auto;
+	opacity: 0.7;
+	
+}
+
 @keyframes clouds{
 	0% {
-		left: 400px;
+		left: 800px;
 	}
 	100% {
 		left: 90%;
