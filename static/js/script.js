@@ -1,13 +1,6 @@
+var newWidth = $(window).width();  
 $(function(){
-/*$(function(){
-var sakuraText = ['Не для списывания', 'Исключения сверху', 'Ну привет', 'Я русский'];
-var sakuraTextValue = Math.round(Math.random()*4);
-console.log(sakuraTextValue);
-$('#sakura-text').append(sakuraText[sakuraTextValue]);
-console.log($('#sakura-text').text());
 
-
-});*/   
 var date = new Date;
 
 function logoMove(top, bgposition){
@@ -108,6 +101,8 @@ if (date.getHours() < 6 || date.getHours() >= 23){
     };
 };
 $(window).on('resize', function(){
+    if (this.innerWidth < newWidth || this.innerWidth > newWidth) {
     $('#sakura-logo').animate({'opacity': '0'}, 1000);
+    };
 });
 });
