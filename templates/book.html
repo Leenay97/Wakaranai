@@ -14,8 +14,12 @@
 {% block main %}
     <div class="fixed-container">
         {% if context %}
+            <div class="book">
             {% for item in context %}
-                <h1>{{ item.book.title }}</h1>
+                <div class="book__title">
+                    <h1>{{ item.book.title }}</h1>
+                    <img class="hide" src="{% static 'img/hide-button.png' %}">
+                </div>
                 <div id="lessons-container">
                     {% for lesson in item.lessons %}
                         <a href="lesson/{{ lesson.id }}">
@@ -28,6 +32,7 @@
                         </a>
                     {% endfor %}
                 </div>
+            </div>
             {% endfor %}
         {% else %}
             <p>пока ничего нет :(</p>

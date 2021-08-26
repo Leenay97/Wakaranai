@@ -9,6 +9,9 @@
 #main-container {
     margin-bottom: 30px;
 }
+main {
+    margin-top: 60px;
+}
   #lessons-container {
       display: flex;
       justify-content: space-evenly;
@@ -75,6 +78,7 @@
       position: relative;
       border-radius: 15px;
       border: 1px solid #22222222;
+      cursor: pointer;
       
       
   }
