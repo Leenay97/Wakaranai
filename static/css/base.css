@@ -284,10 +284,11 @@ html {
  #footer__info_feedback {
      color: white;
      position: relative;
+     padding: 0 20px;
  }
  #footer__info_feedback button {
         height: 60px;
-        padding: auto 80px;
+        padding: 10px 20px;
         font-family: 'Pixelant';
         font-size: 24px;
         display: block;
@@ -297,13 +298,13 @@ html {
         box-shadow: 2px 2px 1px 2px #ffffff33 ;
         min-width: 200px;
         width: auto;
-        margin: 0 20px;
+        margin: 0;
+        box-sizing: border-box;
  }
  #footer__info_feedback button:hover {
     box-shadow: 0px 0px 1px 0px #ffffff88;
-    margin: 2px 0 0 2px;
-
- }
+    margin: 2px 0px 0 2px;
+}
  #footer__info_contacts {
      color: white;
  }
@@ -374,11 +375,14 @@ html {
         margin-left: 0;
         min-width: 140px;
     }
+<<<<<<< HEAD
     #footer__info_feedback button:hover{
         box-shadow: 0px 2px 2px 0px #ffffff88;
         margin: 0px 2px 20px 0px;
         padding: 0;
     }
+=======
+>>>>>>> origin/img
  }
  @media (max-width: 768px){
      header {
@@ -436,6 +440,7 @@ html {
      }
      
  }
+<<<<<<< HEAD
  @media (max-width: 340px){
     #footer__info_feedback button {
     margin-left: 0;
@@ -443,4 +448,17 @@ html {
     font-size: 20px;
     height: 50px;
     }
+=======
+ @media (max-width: 380px){
+    #footer__info_feedback{
+        padding: 0;
+    }
+        #footer__info_feedback button {
+        margin-left: 0;
+        width: 100px;
+        font-size: 20px;
+        height: 50px;
+        padding: 0px 10px;
+        }
+>>>>>>> origin/img
 }

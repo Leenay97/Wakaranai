@@ -8,8 +8,8 @@
 #sakura-background {
 	height: 3000px;
 	/*background: linear-gradient(#ffcaff, #e7b6be, #50dafa10);*/
-	background-image: url('../img/sky.png');
-	background-position: bottom;
+	background-image: url('../img/sky-cut2.png');
+	background-position-y: -1400px;
 	background-repeat: repeat-x;
 	/*background-position-y: -3000px;*/
 	background-attachment: fixed;
