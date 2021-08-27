@@ -126,5 +126,4 @@ $(function(){
 			$('.transcription').children('.arrow').show();
 		};
 	});
-
 });

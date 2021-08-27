@@ -375,14 +375,6 @@ html {
         margin-left: 0;
         min-width: 140px;
     }
-<<<<<<< HEAD
-    #footer__info_feedback button:hover{
-        box-shadow: 0px 2px 2px 0px #ffffff88;
-        margin: 0px 2px 20px 0px;
-        padding: 0;
-    }
-=======
->>>>>>> origin/img
  }
  @media (max-width: 768px){
      header {
@@ -440,7 +432,7 @@ html {
      }
      
  }
-<<<<<<< HEAD
+
  @media (max-width: 340px){
     #footer__info_feedback button {
     margin-left: 0;
@@ -448,17 +440,16 @@ html {
     font-size: 20px;
     height: 50px;
     }
-=======
+}
  @media (max-width: 380px){
     #footer__info_feedback{
         padding: 0;
     }
         #footer__info_feedback button {
         margin-left: 0;
-        width: 100px;
+        width: 140px;
         font-size: 20px;
         height: 50px;
         padding: 0px 10px;
         }
->>>>>>> origin/img
 }
