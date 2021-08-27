@@ -1,5 +1,5 @@
 var newWidth = $(window).width();  
-$(function(){
+$(document).ready(function(){
 
 var date = new Date;
 
