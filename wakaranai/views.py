@@ -29,3 +29,7 @@ def lesson_page(request, pk):
             "kanjis": Kanji.objects.filter(lesson_id=pk).values()
         }
     )
+
+# TODO after testing sentry
+def trigger_error(request):
+    division_by_zero = 1 / 0
