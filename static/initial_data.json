@@ -1,0 +1,4822 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2021-08-09T13:42:47.330Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Basic kanji book I",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2021-08-09T13:43:15.558Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "lesson number - 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2021-08-09T13:46:58.506Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2021-08-09T14:39:16.959Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2021-08-09T14:39:26.559Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2021-08-09T14:40:28.736Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2021-08-09T14:45:17.434Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2021-08-09T14:45:47.062Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2021-08-09T14:45:51.163Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2021-08-09T14:47:01.518Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2021-08-09T14:47:21.332Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2021-08-09T14:49:02.974Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2021-08-09T14:49:35.023Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2021-08-09T14:51:35.006Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2021-08-09T14:55:35.412Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2021-08-09T14:58:06.946Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\", \"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2021-08-09T14:59:33.804Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\", \"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2021-08-09T15:04:30.693Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2021-08-10T06:47:33.339Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2021-08-10T06:49:17.070Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Kanji object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2021-08-10T06:50:16.688Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Kanji object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2021-08-10T06:50:49.693Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Kanji object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2021-08-10T06:51:25.749Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2021-08-10T06:52:19.827Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2021-08-10T06:52:52.184Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2021-08-10T06:54:12.568Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2021-08-10T06:54:49.565Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Kanji object (7)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2021-08-10T06:55:21.258Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Kanji object (8)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2021-08-10T06:55:53.269Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "Kanji object (9)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2021-08-10T06:56:26.304Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Kanji object (10)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2021-08-10T06:59:35.507Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "lesson number - 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2021-08-10T07:00:14.855Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "lesson number - 2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2021-08-10T07:00:22.350Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "lesson number - 3",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2021-08-10T07:00:29.714Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "lesson number - 4",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2021-08-10T07:00:38.299Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "lesson number - 5",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2021-08-10T07:00:46.882Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "lesson number - 6",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2021-08-10T07:00:56.158Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "lesson number - 7",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2021-08-10T07:01:05.854Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "lesson number - 8",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2021-08-10T07:05:04.833Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Kanji object (11)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2021-08-10T07:06:16.736Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2021-08-10T07:06:33.276Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Kanji object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2021-08-10T07:06:41.169Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Kanji object (3)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2021-08-10T07:06:48.019Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Kanji object (4)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2021-08-10T07:07:02.698Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2021-08-10T07:07:09.579Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2021-08-10T07:07:14.322Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2021-08-10T07:07:28.872Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2021-08-10T07:07:38.740Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Kanji object (7)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2021-08-10T07:07:46.304Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Kanji object (8)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2021-08-10T07:07:52.620Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "Kanji object (9)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2021-08-10T07:07:59.320Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Kanji object (10)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2021-08-10T07:08:24.730Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Kanji object (11)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2021-08-10T07:09:41.971Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Kanji object (12)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2021-08-10T07:10:01.536Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Kanji object (12)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\", \"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2021-08-10T07:10:07.657Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Kanji object (12)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2021-08-10T07:10:36.573Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Kanji object (12)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2021-08-10T07:10:42.273Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Kanji object (12)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2021-08-10T07:12:26.743Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "Kanji object (13)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2021-08-10T07:14:20.597Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Kanji object (14)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2021-08-10T07:14:46.263Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Kanji object (14)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2021-08-10T07:17:20.232Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "Kanji object (15)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2021-08-10T07:25:37.170Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "Kanji object (16)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2021-08-10T07:27:54.846Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2021-08-10T07:30:29.791Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2021-08-10T07:30:40.766Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2021-08-10T07:33:14.321Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Kanji object (19)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2021-08-10T07:44:59.534Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "20",
+            "object_repr": "Kanji object (20)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2021-08-10T07:48:26.889Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Kanji object (11)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2021-08-10T07:51:34.722Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "Kanji object (16)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2021-08-10T07:51:45.155Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2021-08-10T08:04:31.182Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Kanji object (19)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2021-08-10T08:18:02.774Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "21",
+            "object_repr": "Kanji object (21)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2021-08-10T08:19:57.504Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "22",
+            "object_repr": "Kanji object (22)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2021-08-10T08:22:18.040Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "23",
+            "object_repr": "Kanji object (23)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2021-08-10T08:25:08.855Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2021-08-10T08:25:42.326Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "23",
+            "object_repr": "Kanji object (23)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\", \"Words translated example\", \"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2021-08-10T08:26:21.601Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2021-08-10T08:26:54.937Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2021-08-10T08:29:42.733Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "25",
+            "object_repr": "Kanji object (25)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2021-08-10T08:31:44.741Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "26",
+            "object_repr": "Kanji object (26)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2021-08-10T08:32:11.874Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "26",
+            "object_repr": "Kanji object (26)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2021-08-10T08:38:48.818Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "27",
+            "object_repr": "Kanji object (27)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2021-08-10T08:42:13.322Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "28",
+            "object_repr": "Kanji object (28)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2021-08-10T08:44:40.212Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "29",
+            "object_repr": "Kanji object (29)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2021-08-10T08:47:52.337Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "30",
+            "object_repr": "Kanji object (30)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2021-08-10T08:49:37.660Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "29",
+            "object_repr": "Kanji object (29)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2021-08-10T08:49:57.233Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "29",
+            "object_repr": "Kanji object (29)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2021-08-10T10:21:55.755Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2021-08-10T10:23:13.747Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2021-08-10T10:23:45.090Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+            "action_time": "2021-08-10T10:24:46.456Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+            "action_time": "2021-08-10T15:45:40.609Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "31",
+            "object_repr": "Kanji object (31)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+            "action_time": "2021-08-10T15:48:36.313Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "32",
+            "object_repr": "Kanji object (32)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2021-08-10T15:50:19.304Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "33",
+            "object_repr": "Kanji object (33)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2021-08-10T15:52:02.369Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "34",
+            "object_repr": "Kanji object (34)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2021-08-10T15:54:22.216Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "35",
+            "object_repr": "Kanji object (35)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2021-08-11T05:09:01.370Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2021-08-11T05:09:45.039Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2021-08-11T05:11:21.788Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2021-08-11T05:16:11.233Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2021-08-11T05:16:34.780Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2021-08-11T05:16:52.416Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2021-08-11T05:18:42.672Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "38",
+            "object_repr": "Kanji object (38)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2021-08-11T05:21:03.452Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "39",
+            "object_repr": "Kanji object (39)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2021-08-11T05:25:12.637Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "40",
+            "object_repr": "Kanji object (40)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2021-08-11T05:27:34.799Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "41",
+            "object_repr": "Kanji object (41)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2021-08-11T05:29:40.983Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "Kanji object (42)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2021-08-11T05:29:56.978Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "Kanji object (42)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2021-08-11T05:33:46.159Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2021-08-11T05:34:06.845Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2021-08-11T05:34:21.064Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "Kanji object (42)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2021-08-11T05:34:32.371Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2021-08-11T05:34:42.085Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "40",
+            "object_repr": "Kanji object (40)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2021-08-11T05:34:54.519Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2021-08-11T05:35:00.610Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2021-08-11T10:54:36.479Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2021-08-11T10:55:03.571Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2021-08-11T10:55:15.191Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2021-08-11T12:13:47.053Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2021-08-11T12:14:11.384Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2021-08-11T13:51:30.680Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2021-08-22T08:29:30.596Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Kanji object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2021-08-22T08:29:38.427Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Kanji object (3)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2021-08-22T08:29:44.629Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Kanji object (4)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2021-08-22T08:29:51.336Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2021-08-22T08:30:01.703Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2021-08-22T08:30:22.231Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Kanji object (7)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2021-08-22T08:30:30.409Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Kanji object (8)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2021-08-22T08:30:43.068Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "Kanji object (9)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+            "action_time": "2021-08-22T08:30:50.127Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Kanji object (10)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+            "action_time": "2021-08-22T08:33:15.739Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Kanji object (11)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+            "action_time": "2021-08-22T08:33:23.709Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Kanji object (12)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 133,
+        "fields": {
+            "action_time": "2021-08-22T08:33:38.730Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "Kanji object (13)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 134,
+        "fields": {
+            "action_time": "2021-08-22T08:33:51.028Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Kanji object (14)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 135,
+        "fields": {
+            "action_time": "2021-08-22T08:33:57.270Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "Kanji object (15)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 136,
+        "fields": {
+            "action_time": "2021-08-22T08:34:06.541Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "Kanji object (16)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 137,
+        "fields": {
+            "action_time": "2021-08-22T08:34:23.629Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 138,
+        "fields": {
+            "action_time": "2021-08-22T08:34:32.068Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 139,
+        "fields": {
+            "action_time": "2021-08-22T08:34:55.051Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Kanji object (19)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 140,
+        "fields": {
+            "action_time": "2021-08-22T08:35:04.970Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "20",
+            "object_repr": "Kanji object (20)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 141,
+        "fields": {
+            "action_time": "2021-08-22T08:36:10.837Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "21",
+            "object_repr": "Kanji object (21)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\", \"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 142,
+        "fields": {
+            "action_time": "2021-08-22T08:36:23.655Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "22",
+            "object_repr": "Kanji object (22)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\", \"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 143,
+        "fields": {
+            "action_time": "2021-08-22T08:36:33.128Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "23",
+            "object_repr": "Kanji object (23)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 144,
+        "fields": {
+            "action_time": "2021-08-22T08:36:43.529Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 145,
+        "fields": {
+            "action_time": "2021-08-22T08:36:50.859Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "25",
+            "object_repr": "Kanji object (25)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 146,
+        "fields": {
+            "action_time": "2021-08-22T08:37:00.092Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "26",
+            "object_repr": "Kanji object (26)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 147,
+        "fields": {
+            "action_time": "2021-08-22T08:37:06.194Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "27",
+            "object_repr": "Kanji object (27)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 148,
+        "fields": {
+            "action_time": "2021-08-22T08:37:12.632Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "28",
+            "object_repr": "Kanji object (28)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 149,
+        "fields": {
+            "action_time": "2021-08-22T08:37:18.692Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "29",
+            "object_repr": "Kanji object (29)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 150,
+        "fields": {
+            "action_time": "2021-08-22T08:37:24.734Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "30",
+            "object_repr": "Kanji object (30)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 151,
+        "fields": {
+            "action_time": "2021-08-22T08:37:38.619Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "31",
+            "object_repr": "Kanji object (31)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 152,
+        "fields": {
+            "action_time": "2021-08-22T08:37:47.502Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "32",
+            "object_repr": "Kanji object (32)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 153,
+        "fields": {
+            "action_time": "2021-08-22T08:37:56.186Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "31",
+            "object_repr": "Kanji object (31)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 154,
+        "fields": {
+            "action_time": "2021-08-22T08:38:17.521Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "33",
+            "object_repr": "Kanji object (33)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 155,
+        "fields": {
+            "action_time": "2021-08-22T08:38:41.188Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "33",
+            "object_repr": "Kanji object (33)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 156,
+        "fields": {
+            "action_time": "2021-08-22T08:38:49.200Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "34",
+            "object_repr": "Kanji object (34)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 157,
+        "fields": {
+            "action_time": "2021-08-22T08:39:04.307Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "35",
+            "object_repr": "Kanji object (35)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 158,
+        "fields": {
+            "action_time": "2021-08-22T08:39:14.309Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "35",
+            "object_repr": "Kanji object (35)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 159,
+        "fields": {
+            "action_time": "2021-08-22T08:39:38.719Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "34",
+            "object_repr": "Kanji object (34)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 160,
+        "fields": {
+            "action_time": "2021-08-22T09:21:59.376Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 161,
+        "fields": {
+            "action_time": "2021-08-22T09:22:16.911Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 162,
+        "fields": {
+            "action_time": "2021-08-22T09:22:33.270Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "38",
+            "object_repr": "Kanji object (38)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 163,
+        "fields": {
+            "action_time": "2021-08-22T09:22:42.622Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "39",
+            "object_repr": "Kanji object (39)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 164,
+        "fields": {
+            "action_time": "2021-08-22T09:22:49.431Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "40",
+            "object_repr": "Kanji object (40)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 165,
+        "fields": {
+            "action_time": "2021-08-22T09:23:30.597Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "41",
+            "object_repr": "Kanji object (41)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 166,
+        "fields": {
+            "action_time": "2021-08-22T09:23:55.408Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "Kanji object (42)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 167,
+        "fields": {
+            "action_time": "2021-08-22T09:24:13.767Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 168,
+        "fields": {
+            "action_time": "2021-08-22T09:24:27.895Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 169,
+        "fields": {
+            "action_time": "2021-08-22T09:26:41.404Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "44",
+            "object_repr": "Kanji object (44)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 170,
+        "fields": {
+            "action_time": "2021-08-22T09:29:23.953Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "45",
+            "object_repr": "Kanji object (45)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 171,
+        "fields": {
+            "action_time": "2021-08-22T09:30:07.365Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "44",
+            "object_repr": "Kanji object (44)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 172,
+        "fields": {
+            "action_time": "2021-08-22T09:30:16.317Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "45",
+            "object_repr": "Kanji object (45)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 173,
+        "fields": {
+            "action_time": "2021-08-22T16:53:30.119Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "46",
+            "object_repr": "Kanji object (46)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 174,
+        "fields": {
+            "action_time": "2021-08-22T16:56:14.032Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "47",
+            "object_repr": "Kanji object (47)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 175,
+        "fields": {
+            "action_time": "2021-08-22T16:57:56.014Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "48",
+            "object_repr": "Kanji object (48)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 176,
+        "fields": {
+            "action_time": "2021-08-22T17:00:10.815Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "49",
+            "object_repr": "Kanji object (49)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 177,
+        "fields": {
+            "action_time": "2021-08-22T17:02:31.718Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "50",
+            "object_repr": "Kanji object (50)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 178,
+        "fields": {
+            "action_time": "2021-08-22T17:05:35.880Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "51",
+            "object_repr": "Kanji object (51)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 179,
+        "fields": {
+            "action_time": "2021-08-22T17:12:45.782Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "52",
+            "object_repr": "Kanji object (52)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 180,
+        "fields": {
+            "action_time": "2021-08-22T17:16:10.579Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "53",
+            "object_repr": "Kanji object (53)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 181,
+        "fields": {
+            "action_time": "2021-08-22T17:19:05.978Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "54",
+            "object_repr": "Kanji object (54)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 182,
+        "fields": {
+            "action_time": "2021-08-22T17:20:30.640Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "55",
+            "object_repr": "Kanji object (55)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 183,
+        "fields": {
+            "action_time": "2021-08-22T17:21:15.335Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "54",
+            "object_repr": "Kanji object (54)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Meaning\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 184,
+        "fields": {
+            "action_time": "2021-08-22T17:29:05.457Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "53",
+            "object_repr": "Kanji object (53)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Kanji gif\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 185,
+        "fields": {
+            "action_time": "2021-08-22T17:33:53.041Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "56",
+            "object_repr": "Kanji object (56)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 186,
+        "fields": {
+            "action_time": "2021-08-22T17:35:41.969Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "57",
+            "object_repr": "Kanji object (57)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 187,
+        "fields": {
+            "action_time": "2021-08-22T17:37:11.126Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "58",
+            "object_repr": "Kanji object (58)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 188,
+        "fields": {
+            "action_time": "2021-08-22T17:39:06.211Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "59",
+            "object_repr": "Kanji object (59)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 189,
+        "fields": {
+            "action_time": "2021-08-22T17:40:09.949Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "60",
+            "object_repr": "Kanji object (60)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 190,
+        "fields": {
+            "action_time": "2021-08-22T17:41:55.604Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "61",
+            "object_repr": "Kanji object (61)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 191,
+        "fields": {
+            "action_time": "2021-08-22T17:43:27.772Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "62",
+            "object_repr": "Kanji object (62)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 192,
+        "fields": {
+            "action_time": "2021-08-22T17:45:44.286Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "63",
+            "object_repr": "Kanji object (63)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 193,
+        "fields": {
+            "action_time": "2021-08-22T17:47:34.591Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "64",
+            "object_repr": "Kanji object (64)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 194,
+        "fields": {
+            "action_time": "2021-08-22T17:48:40.797Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "65",
+            "object_repr": "Kanji object (65)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 195,
+        "fields": {
+            "action_time": "2021-08-26T15:01:19.370Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 196,
+        "fields": {
+            "action_time": "2021-08-26T15:03:26.117Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 197,
+        "fields": {
+            "action_time": "2021-08-26T15:03:42.314Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kanji object (5)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 198,
+        "fields": {
+            "action_time": "2021-08-26T15:03:53.917Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Kanji object (8)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 199,
+        "fields": {
+            "action_time": "2021-08-26T15:04:16.472Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 200,
+        "fields": {
+            "action_time": "2021-08-26T15:04:16.612Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Kanji object (6)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 201,
+        "fields": {
+            "action_time": "2021-08-26T15:08:17.297Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 202,
+        "fields": {
+            "action_time": "2021-08-26T15:09:09.142Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\", \"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 203,
+        "fields": {
+            "action_time": "2021-08-26T15:10:34.752Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 204,
+        "fields": {
+            "action_time": "2021-08-26T15:12:30.089Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 205,
+        "fields": {
+            "action_time": "2021-08-26T15:17:20.834Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 206,
+        "fields": {
+            "action_time": "2021-08-26T15:17:52.059Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 207,
+        "fields": {
+            "action_time": "2021-08-26T15:18:09.108Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 208,
+        "fields": {
+            "action_time": "2021-08-26T15:19:12.904Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 209,
+        "fields": {
+            "action_time": "2021-08-26T15:20:02.116Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 210,
+        "fields": {
+            "action_time": "2021-08-26T15:20:38.013Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 211,
+        "fields": {
+            "action_time": "2021-08-26T15:22:35.643Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 212,
+        "fields": {
+            "action_time": "2021-08-26T15:23:26.541Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "27",
+            "object_repr": "Kanji object (27)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 213,
+        "fields": {
+            "action_time": "2021-08-26T16:37:21.712Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 214,
+        "fields": {
+            "action_time": "2021-08-26T16:37:41.461Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "32",
+            "object_repr": "Kanji object (32)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 215,
+        "fields": {
+            "action_time": "2021-08-26T16:38:08.039Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "33",
+            "object_repr": "Kanji object (33)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 216,
+        "fields": {
+            "action_time": "2021-08-26T16:38:49.085Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "30",
+            "object_repr": "Kanji object (30)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 217,
+        "fields": {
+            "action_time": "2021-08-26T16:40:37.092Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 218,
+        "fields": {
+            "action_time": "2021-08-26T16:41:15.480Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words translated example\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 219,
+        "fields": {
+            "action_time": "2021-08-26T16:42:29.029Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "39",
+            "object_repr": "Kanji object (39)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Words example\", \"Transcription\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 220,
+        "fields": {
+            "action_time": "2021-08-26T16:46:49.002Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "Kanji object (42)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 221,
+        "fields": {
+            "action_time": "2021-08-26T16:48:04.037Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 222,
+        "fields": {
+            "action_time": "2021-08-26T16:48:52.644Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "45",
+            "object_repr": "Kanji object (45)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 223,
+        "fields": {
+            "action_time": "2021-08-27T15:48:59.221Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 224,
+        "fields": {
+            "action_time": "2021-08-27T16:12:58.204Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 225,
+        "fields": {
+            "action_time": "2021-08-27T16:16:38.886Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 226,
+        "fields": {
+            "action_time": "2021-08-27T16:20:56.231Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 227,
+        "fields": {
+            "action_time": "2021-08-27T16:22:37.040Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Kanji object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 228,
+        "fields": {
+            "action_time": "2021-08-27T16:23:20.026Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 229,
+        "fields": {
+            "action_time": "2021-08-27T16:24:11.084Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 230,
+        "fields": {
+            "action_time": "2021-08-27T16:24:43.030Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 231,
+        "fields": {
+            "action_time": "2021-08-27T16:28:38.898Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Kanji object (17)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 232,
+        "fields": {
+            "action_time": "2021-08-27T16:29:39.500Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "Kanji object (18)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 233,
+        "fields": {
+            "action_time": "2021-08-27T16:30:10.781Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "21",
+            "object_repr": "Kanji object (21)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 234,
+        "fields": {
+            "action_time": "2021-08-27T16:30:31.987Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "22",
+            "object_repr": "Kanji object (22)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 235,
+        "fields": {
+            "action_time": "2021-08-27T16:30:56.201Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "23",
+            "object_repr": "Kanji object (23)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example first\", \"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 236,
+        "fields": {
+            "action_time": "2021-08-27T16:31:37.336Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "Kanji object (24)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 237,
+        "fields": {
+            "action_time": "2021-08-27T16:31:52.561Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "25",
+            "object_repr": "Kanji object (25)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 238,
+        "fields": {
+            "action_time": "2021-08-27T16:32:04.850Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "26",
+            "object_repr": "Kanji object (26)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 239,
+        "fields": {
+            "action_time": "2021-08-27T16:32:51.105Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "27",
+            "object_repr": "Kanji object (27)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 240,
+        "fields": {
+            "action_time": "2021-08-27T16:33:12.409Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "28",
+            "object_repr": "Kanji object (28)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 241,
+        "fields": {
+            "action_time": "2021-08-27T16:33:24.730Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "29",
+            "object_repr": "Kanji object (29)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 242,
+        "fields": {
+            "action_time": "2021-08-27T16:34:29.331Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Kanji object (36)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 243,
+        "fields": {
+            "action_time": "2021-08-27T16:35:35.027Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Kanji object (37)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 244,
+        "fields": {
+            "action_time": "2021-08-27T16:38:24.281Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "39",
+            "object_repr": "Kanji object (39)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 245,
+        "fields": {
+            "action_time": "2021-08-27T16:38:41.316Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "40",
+            "object_repr": "Kanji object (40)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 246,
+        "fields": {
+            "action_time": "2021-08-27T16:39:07.330Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "Kanji object (42)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 247,
+        "fields": {
+            "action_time": "2021-08-27T16:39:32.111Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Kanji object (43)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 248,
+        "fields": {
+            "action_time": "2021-08-27T16:40:23.555Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "46",
+            "object_repr": "Kanji object (46)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 249,
+        "fields": {
+            "action_time": "2021-08-27T16:40:38.302Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "47",
+            "object_repr": "Kanji object (47)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 250,
+        "fields": {
+            "action_time": "2021-08-27T16:41:12.705Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "49",
+            "object_repr": "Kanji object (49)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 251,
+        "fields": {
+            "action_time": "2021-08-27T16:42:04.133Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "59",
+            "object_repr": "Kanji object (59)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Reading example second\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add book",
+            "content_type": 7,
+            "codename": "add_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change book",
+            "content_type": 7,
+            "codename": "change_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete book",
+            "content_type": 7,
+            "codename": "delete_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view book",
+            "content_type": 7,
+            "codename": "view_book"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add lesson",
+            "content_type": 8,
+            "codename": "add_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change lesson",
+            "content_type": 8,
+            "codename": "change_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete lesson",
+            "content_type": 8,
+            "codename": "delete_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view lesson",
+            "content_type": 8,
+            "codename": "view_lesson"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add kanji",
+            "content_type": 9,
+            "codename": "add_kanji"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change kanji",
+            "content_type": 9,
+            "codename": "change_kanji"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete kanji",
+            "content_type": 9,
+            "codename": "delete_kanji"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view kanji",
+            "content_type": 9,
+            "codename": "view_kanji"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$IK3GOco4FdsJ25RaCW8NQL$pK2SQtKRyZuU+OuAHw6qIkVafmSy/HpVx+cVX8+gtE8=",
+            "last_login": "2021-08-26T14:52:41.849Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "skynekop@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2021-08-09T13:41:52.676Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "wakaranai",
+            "model": "book"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "wakaranai",
+            "model": "lesson"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "wakaranai",
+            "model": "kanji"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gx52vrs27pvbybx26qw3pyd0bsmvkelw",
+        "fields": {
+            "session_data": ".eJxVjMEOwiAQRP-FsyEQYEGP3v0Gwu6CVA0kpT0Z_9026UFvk3lv5i1iWpca15HnOLG4CC1Ovx0meua2A36kdu-SelvmCeWuyIMOeeucX9fD_TuoadRtbQGN14WBCABwi1mHRFCKR-JUiFGTN5nDWZOyllUJyjhQ2fniUIvPFw2yOMM:1mJGkD:LCODn8DNjTvtPq1a1_BrAkd2oddNHvBtM31AJnNv2Mw",
+            "expire_date": "2021-09-09T14:52:41.865Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "wq9joiaxv2iwqxnidd06i9o1lmq1mqta",
+        "fields": {
+            "session_data": ".eJxVjMEOwiAQRP-FsyEQYEGP3v0Gwu6CVA0kpT0Z_9026UFvk3lv5i1iWpca15HnOLG4CC1Ovx0meua2A36kdu-SelvmCeWuyIMOeeucX9fD_TuoadRtbQGN14WBCABwi1mHRFCKR-JUiFGTN5nDWZOyllUJyjhQ2fniUIvPFw2yOMM:1mD5Xs:HY8NofCVPlTxhqAv6v0Pmi3zBgKp1i8r_GEndLYy09Y",
+            "expire_date": "2021-08-23T13:42:24.087Z"
+        }
+    },
+    {
+        "model": "wakaranai.book",
+        "pk": 1,
+        "fields": {
+            "title": "Basic kanji book I"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 1,
+        "fields": {
+            "lesson_number": 1,
+            "kanji_example": "日月木山川田人口車門",
+            "book": 1,
+            "added": "2021-08-09T13:43:15.556Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 2,
+        "fields": {
+            "lesson_number": 2,
+            "kanji_example": "火水金土子女学生先私",
+            "book": 1,
+            "added": "2021-08-10T07:00:14.854Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 3,
+        "fields": {
+            "lesson_number": 3,
+            "kanji_example": "一二三四五六七八九十百千万円年",
+            "book": 1,
+            "added": "2021-08-10T07:00:22.348Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 4,
+        "fields": {
+            "lesson_number": 4,
+            "kanji_example": "上下中大小本半分力何",
+            "book": 1,
+            "added": "2021-08-10T07:00:29.713Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 5,
+        "fields": {
+            "lesson_number": 5,
+            "kanji_example": "明休体好男林森間畑岩",
+            "book": 1,
+            "added": "2021-08-10T07:00:38.295Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 6,
+        "fields": {
+            "lesson_number": 6,
+            "kanji_example": "目耳手足雨竹米貝石糸",
+            "book": 1,
+            "added": "2021-08-10T07:00:46.881Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 7,
+        "fields": {
+            "lesson_number": 7,
+            "kanji_example": "花茶肉文字物牛馬鳥魚",
+            "book": 1,
+            "added": "2021-08-10T07:00:56.156Z"
+        }
+    },
+    {
+        "model": "wakaranai.lesson",
+        "pk": 8,
+        "fields": {
+            "lesson_number": 8,
+            "kanji_example": "新古長短高安低暗多少",
+            "book": 1,
+            "added": "2021-08-10T07:01:05.853Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 1,
+        "fields": {
+            "name": "日",
+            "meaning": "солнце, день",
+            "kanji_gif": "nichi.gif",
+            "reading_example_first": "ニチ／ニ、ジツ",
+            "reading_example_second": "ひ／-び、か",
+            "words_example": "日本\r\n日\r\n日曜日\r\n３日",
+            "words_translated_example": "Япония\r\nСолнце, день\r\nВоскресенье\r\nТретье число",
+            "transcription": "に・ほん/にっ・ぽん\r\nひ\r\nにち・よう・び\r\nみっ・か",
+            "lesson": 1,
+            "added": "2021-08-09T13:46:58.503Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 2,
+        "fields": {
+            "name": "月",
+            "meaning": "луна, месяц",
+            "kanji_gif": "tsuki.gif",
+            "reading_example_first": "ゲツ、-ガツ",
+            "reading_example_second": "つき",
+            "words_example": "月\r\n1月\r\n月曜日\r\n1ヶ月",
+            "words_translated_example": "Луна, месяц\r\nЯнварь\r\nПонедельник\r\nОдин месяц",
+            "transcription": "つき\r\nいち・がつ\r\nげつ・よう・び\r\nいっかげつ",
+            "lesson": 1,
+            "added": "2021-08-10T06:49:17.069Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 3,
+        "fields": {
+            "name": "木",
+            "meaning": "дерево",
+            "kanji_gif": "ki.gif",
+            "reading_example_first": "モク、ボク",
+            "reading_example_second": "き",
+            "words_example": "木\r\n木曜日\r\n木村",
+            "words_translated_example": "Дерево\r\nЧетверг\r\nЯпонская фамилия",
+            "transcription": "き\r\nもく・よう・び\r\nき・むら",
+            "lesson": 1,
+            "added": "2021-08-10T06:50:16.686Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 4,
+        "fields": {
+            "name": "山",
+            "meaning": "гора",
+            "kanji_gif": "yama.gif",
+            "reading_example_first": "サン",
+            "reading_example_second": "やま",
+            "words_example": "山\r\n富士山\r\n山下\r\n火山",
+            "words_translated_example": "Гора\r\nФудзи\r\nЯпонская фамилия\r\nВулкан",
+            "transcription": "やま\r\nふ・じ・さん\r\nやま・した\r\nか・ざん",
+            "lesson": 1,
+            "added": "2021-08-10T06:50:49.691Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 5,
+        "fields": {
+            "name": "川",
+            "meaning": "река",
+            "kanji_gif": "kawa.gif",
+            "reading_example_first": "(セン)",
+            "reading_example_second": "かわ／-がわ",
+            "words_example": "川\r\nナイル川",
+            "words_translated_example": "Река\r\nНил",
+            "transcription": "かわ\r\nないる・がわ",
+            "lesson": 1,
+            "added": "2021-08-10T06:51:25.747Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 6,
+        "fields": {
+            "name": "田",
+            "meaning": "рисовое поле",
+            "kanji_gif": "den.gif",
+            "reading_example_first": "デン",
+            "reading_example_second": "た／-だ",
+            "words_example": "田んぼ\r\n山田\r\n田中\r\n水田",
+            "words_translated_example": "Рисовое поле\r\nЯпонская фамилия\r\nЯпонская фамилия\r\nПоле с канавами",
+            "transcription": "たんぼ\r\nやま・だ\r\nた・なか\r\nすい・でん",
+            "lesson": 1,
+            "added": "2021-08-10T06:52:19.826Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 7,
+        "fields": {
+            "name": "人",
+            "meaning": "человек",
+            "kanji_gif": "hito.gif",
+            "reading_example_first": "ジン、ニン",
+            "reading_example_second": "ひと",
+            "words_example": "人\r\n3人\r\n日本人",
+            "words_translated_example": "Человек\r\n3 человека\r\nЯпонец",
+            "transcription": "ひと\r\nさん・にん\r\nに・ほん・じん",
+            "lesson": 1,
+            "added": "2021-08-10T06:54:49.564Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 8,
+        "fields": {
+            "name": "口",
+            "meaning": "рот",
+            "kanji_gif": "kuchi.gif",
+            "reading_example_first": "コウ",
+            "reading_example_second": "くち／-ぐち",
+            "words_example": "口\r\n入口\r\n出口\r\n人口",
+            "words_translated_example": "Рот\r\nВход\r\nВыход\r\nНаселение",
+            "transcription": "くち\r\nいり・ぐち\r\nで・ぐち\r\nじん・こう",
+            "lesson": 1,
+            "added": "2021-08-10T06:55:21.256Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 9,
+        "fields": {
+            "name": "車",
+            "meaning": "машина, телега",
+            "kanji_gif": "kuruma.gif",
+            "reading_example_first": "シャ",
+            "reading_example_second": "くるま",
+            "words_example": "車\r\n自動車\r\n電車",
+            "words_translated_example": "Машина\r\nАвтомобиль\r\nПоезд",
+            "transcription": "くるま\r\nじ・どう・しゃ\r\nでん・しゃ",
+            "lesson": 1,
+            "added": "2021-08-10T06:55:53.267Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 10,
+        "fields": {
+            "name": "門",
+            "meaning": "ворота",
+            "kanji_gif": "mon.gif",
+            "reading_example_first": "モン",
+            "reading_example_second": "(かど)",
+            "words_example": "門\r\n専門",
+            "words_translated_example": "Ворота\r\nСпециальность",
+            "transcription": "もん\r\nせん・もん",
+            "lesson": 1,
+            "added": "2021-08-10T06:56:26.302Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 11,
+        "fields": {
+            "name": "火",
+            "meaning": "огонь",
+            "kanji_gif": "ka.gif",
+            "reading_example_first": "カ",
+            "reading_example_second": "ひ",
+            "words_example": "火\r\n火曜日\r\n火山",
+            "words_translated_example": "Огонь\r\nВторник\r\nВулкан",
+            "transcription": "ひ\r\nか・よう・び\r\nか・ざん",
+            "lesson": 2,
+            "added": "2021-08-10T07:05:04.831Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 12,
+        "fields": {
+            "name": "水",
+            "meaning": "вода",
+            "kanji_gif": "mizu.gif",
+            "reading_example_first": "スイ",
+            "reading_example_second": "みず",
+            "words_example": "水\r\n水曜日\r\n水田",
+            "words_translated_example": "Вода\r\nСреда\r\nПоле с канавами",
+            "transcription": "みず\r\nすい・よう・び\r\nすい・でん",
+            "lesson": 2,
+            "added": "2021-08-10T07:09:41.969Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 13,
+        "fields": {
+            "name": "金",
+            "meaning": "золото, деньги",
+            "kanji_gif": "kane.gif",
+            "reading_example_first": "キン",
+            "reading_example_second": "かね",
+            "words_example": "お金\r\n金\r\n金田\r\n金曜日",
+            "words_translated_example": "Деньги\r\nЗолото\r\nЯпонская фамилия\r\nПятница",
+            "transcription": "お・かね\r\nきん\r\nかね・だ\r\nきん・よう・び",
+            "lesson": 2,
+            "added": "2021-08-10T07:12:26.742Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 14,
+        "fields": {
+            "name": "土",
+            "meaning": "земля, почва",
+            "kanji_gif": "tsuchi.gif",
+            "reading_example_first": "ド",
+            "reading_example_second": "つち",
+            "words_example": "土\r\n土曜日\r\n土木",
+            "words_translated_example": "Земля, почва\r\nСуббота\r\nСтроительная отрасль",
+            "transcription": "つち\r\nど・よう・び\r\nど・ぼく",
+            "lesson": 2,
+            "added": "2021-08-10T07:14:20.595Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 15,
+        "fields": {
+            "name": "子",
+            "meaning": "ребенок",
+            "kanji_gif": "ko.gif",
+            "reading_example_first": "シ",
+            "reading_example_second": "こ",
+            "words_example": "子ども\r\n女子学生\r\n女の子",
+            "words_translated_example": "Ребенок\r\nСтудентка\r\nДевочка",
+            "transcription": "こども\r\nじょ・し・がく・せい\r\nおんな・の・こ",
+            "lesson": 2,
+            "added": "2021-08-10T07:17:20.230Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 16,
+        "fields": {
+            "name": "女",
+            "meaning": "женщина",
+            "kanji_gif": "onna.gif",
+            "reading_example_first": "ジョ",
+            "reading_example_second": "おんな",
+            "words_example": "女\r\n彼女\r\n女の人",
+            "words_translated_example": "Женщина\r\nОна/девушка\r\nЖенщина",
+            "transcription": "おんな\r\nかの・じょ\r\nおんな・の・ひと",
+            "lesson": 2,
+            "added": "2021-08-10T07:25:37.168Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 17,
+        "fields": {
+            "name": "学",
+            "meaning": "учиться",
+            "kanji_gif": "gaku.gif",
+            "reading_example_first": "ガク／ガッ-",
+            "reading_example_second": "まな<span class = \"red\">ぶ</span>",
+            "words_example": "学生\r\n学校\r\n大学",
+            "words_translated_example": "Студент\r\nШкола\r\nУниверситет",
+            "transcription": "がく・せい\r\nがっ・こう\r\nだい・がく",
+            "lesson": 2,
+            "added": "2021-08-10T07:27:54.844Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 18,
+        "fields": {
+            "name": "生",
+            "meaning": "жить, рождаться",
+            "kanji_gif": "sei.png",
+            "reading_example_first": "セイ",
+            "reading_example_second": "い<span class = \"red\">きる</span>、う<span class = \"red\">まれる</span>",
+            "words_example": "生きる\r\n先生\r\n生まれる\r\n学生",
+            "words_translated_example": "Жить\r\nУчитель\r\nРождаться\r\nСтудент",
+            "transcription": "いきる\r\nせん・せい\r\nう・まれる\r\nがく・せい",
+            "lesson": 2,
+            "added": "2021-08-10T07:30:29.789Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 19,
+        "fields": {
+            "name": "先",
+            "meaning": "предыдущий",
+            "kanji_gif": "sen.gif",
+            "reading_example_first": "セン",
+            "reading_example_second": "さき",
+            "words_example": "先\r\n先生\r\n先月",
+            "words_translated_example": "Перед\r\nУчитель\r\nСлед. месяц",
+            "transcription": "さき\r\nせん・せい\r\nせん・げつ",
+            "lesson": 2,
+            "added": "2021-08-10T07:33:14.319Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 20,
+        "fields": {
+            "name": "私",
+            "meaning": "частный",
+            "kanji_gif": "watashi.gif",
+            "reading_example_first": "シ",
+            "reading_example_second": "わたし、わたくし",
+            "words_example": "私\r\n私立大学",
+            "words_translated_example": "Я\r\nЧастный университет",
+            "transcription": "わたし/わたくし\r\nし・りつ・だい・がく",
+            "lesson": 2,
+            "added": "2021-08-10T07:44:59.532Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 21,
+        "fields": {
+            "name": "一",
+            "meaning": "один",
+            "kanji_gif": "ichi.gif",
+            "reading_example_first": "イチ",
+            "reading_example_second": "ひと<span class = \"red\">つ</span>",
+            "words_example": "一つ\r\n一月\r\n一人\r\n一年",
+            "words_translated_example": "Одна (штука)\r\nЯнварь\r\nОдин человек\r\nОдин год",
+            "transcription": "ひと・つ\r\nいち・がつ\r\nひと・り\r\nいち・ねん",
+            "lesson": 3,
+            "added": "2021-08-10T08:18:02.772Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 22,
+        "fields": {
+            "name": "二",
+            "meaning": "два",
+            "kanji_gif": "ni.gif",
+            "reading_example_first": "二",
+            "reading_example_second": "ふた<span class = \"red\">つ</span>",
+            "words_example": "二つ\r\n二月\r\n二人\r\n二年",
+            "words_translated_example": "Две (штуки)\r\nФевраль\r\nДва человека\r\nДва года",
+            "transcription": "ふた・つ\r\nに・がつ\r\nふた・り\r\nに・ねん",
+            "lesson": 3,
+            "added": "2021-08-10T08:19:57.502Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 23,
+        "fields": {
+            "name": "三",
+            "meaning": "три",
+            "kanji_gif": "san.gif",
+            "reading_example_first": "サン",
+            "reading_example_second": "みっ<span class = \"red\">つ</span>",
+            "words_example": "三つ\r\n三月\r\n三日\r\n三年",
+            "words_translated_example": "Три (штуки)\r\nМарт\r\nТретье число\r\nТри года",
+            "transcription": "みっ・つ\r\nさん・がつ\r\nみっ・か\r\nさん・ねん",
+            "lesson": 3,
+            "added": "2021-08-10T08:22:18.038Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 24,
+        "fields": {
+            "name": "四",
+            "meaning": "четыре",
+            "kanji_gif": "yon.gif",
+            "reading_example_first": "シ",
+            "reading_example_second": "よっ<span class = \"red\">つ</span>、よん／よ",
+            "words_example": "四つ\r\n四月\r\n四人\r\n四年\r\n四日",
+            "words_translated_example": "Четыре (штуки)\r\nАпрель\r\nЧетыре человека\r\nЧетыре года\r\nЧетвертое число",
+            "transcription": "よっ・つ\r\nし・がつ\r\nよ・にん\r\nよ・ねん\r\nよ・っか",
+            "lesson": 3,
+            "added": "2021-08-10T08:25:08.854Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 25,
+        "fields": {
+            "name": "五",
+            "meaning": "пять",
+            "kanji_gif": "go.gif",
+            "reading_example_first": "ゴ",
+            "reading_example_second": "いつ<span class = \"red\">つ</span>",
+            "words_example": "五つ\r\n五月\r\n五日\r\n五年\r\n5人",
+            "words_translated_example": "Пять (штук)\r\nМай\r\nПятое число\r\nПять лет\r\nПять человек",
+            "transcription": "いつ・つ\r\nご・がつ\r\nいつ・か\r\nご・ねん\r\nご・にん",
+            "lesson": 3,
+            "added": "2021-08-10T08:29:42.730Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 26,
+        "fields": {
+            "name": "六",
+            "meaning": "шесть",
+            "kanji_gif": "roku.gif",
+            "reading_example_first": "ロク",
+            "reading_example_second": "むっ<span class = \"red\">つ</span>",
+            "words_example": "六つ\r\n六月\r\n六日\r\n六年",
+            "words_translated_example": "Шесть (штук)\r\nИюнь\r\nШестое число\r\nШесть лет",
+            "transcription": "むっ・つ\r\nろく・がつ\r\nむい・か\r\nろく・ねん",
+            "lesson": 3,
+            "added": "2021-08-10T08:31:44.740Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 27,
+        "fields": {
+            "name": "七",
+            "meaning": "семь",
+            "kanji_gif": "nana.gif",
+            "reading_example_first": "シチ",
+            "reading_example_second": "なな<span class = \"red\">つ</span>",
+            "words_example": "七つ\r\n七月\r\n七日\r\n七年\r\n七人",
+            "words_translated_example": "Семь (штук)\r\nИюль\r\nСедьмое число\r\nСемь лет\r\nСемь человек",
+            "transcription": "なな・つ\r\nしち・がつ\r\nなの・か\r\nしち・ねん\r\nなな・にん",
+            "lesson": 3,
+            "added": "2021-08-10T08:38:48.815Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 28,
+        "fields": {
+            "name": "八",
+            "meaning": "восемь",
+            "kanji_gif": "hachi.gif",
+            "reading_example_first": "ハチ",
+            "reading_example_second": "やっ<span class = \"red\">つ</span>",
+            "words_example": "八つ\r\n八月\r\n八日\r\n八年\r\n八百",
+            "words_translated_example": "Восемь (штук)\r\nАвгуст\r\nВосьмое число\r\nВосемь лет\r\nВосемьсот",
+            "transcription": "やっ・つ\r\nはち・がつ\r\nよう・か\r\nはち・ねん\r\nはっ・ぴゃく",
+            "lesson": 3,
+            "added": "2021-08-10T08:42:13.320Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 29,
+        "fields": {
+            "name": "九",
+            "meaning": "девять",
+            "kanji_gif": "kyuu.jpg",
+            "reading_example_first": "キュウ、ク",
+            "reading_example_second": "ここの<span class = \"red\">つ</span>",
+            "words_example": "九つ\r\n九月\r\n九日\r\n九百",
+            "words_translated_example": "Девять (штук)\r\nСентябрь\r\nДевятое число\r\nДевятьсот",
+            "transcription": "ここの・つ\r\nく・がつ\r\nここの・か\r\nきゅう・ひゃく",
+            "lesson": 3,
+            "added": "2021-08-10T08:44:40.211Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 30,
+        "fields": {
+            "name": "十",
+            "meaning": "десять",
+            "kanji_gif": "juu.gif",
+            "reading_example_first": "ジュウ、ジュッ-／ジッ-",
+            "reading_example_second": "とお",
+            "words_example": "十\r\n十月\r\n十日\r\n十年",
+            "words_translated_example": "Десять (штук)\r\nОктябрь\r\nДесятое число\r\nДесять лет",
+            "transcription": "とお\r\nじゅう・がつ\r\nとお・か\r\nじゅう・ねん",
+            "lesson": 3,
+            "added": "2021-08-10T08:47:52.336Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 31,
+        "fields": {
+            "name": "百",
+            "meaning": "сто",
+            "kanji_gif": "hyaku.gif",
+            "reading_example_first": "ー",
+            "reading_example_second": "ヒャク/-ピャク／-ビャク",
+            "words_example": "二百\r\n三百\r\n六百\r\n八百",
+            "words_translated_example": "200\r\n300\r\n600\r\n800",
+            "transcription": "に・ひゃく\r\nさん・びゃく\r\nろっ・ぴゃく\r\nはっ・ぴゃく",
+            "lesson": 3,
+            "added": "2021-08-10T15:45:40.607Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 32,
+        "fields": {
+            "name": "千",
+            "meaning": "тысяча",
+            "kanji_gif": "sen1000.gif",
+            "reading_example_first": "セン／-ゼン",
+            "reading_example_second": "ち",
+            "words_example": "千円\r\n三千\r\n千葉",
+            "words_translated_example": "Тысяча йен\r\n3000\r\nПрефектура Тиба",
+            "transcription": "せん・えん\r\nさん・ぜん\r\nち・ば",
+            "lesson": 3,
+            "added": "2021-08-10T15:48:36.312Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 33,
+        "fields": {
+            "name": "万",
+            "meaning": "десять тысяч",
+            "kanji_gif": "man.gif",
+            "reading_example_first": "マン／バン",
+            "reading_example_second": "ー",
+            "words_example": "一万円\r\n万国",
+            "words_translated_example": "10000 йен\r\nВсе страны",
+            "transcription": "いち・まん・えん\r\nばん・こく",
+            "lesson": 3,
+            "added": "2021-08-10T15:50:19.302Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 34,
+        "fields": {
+            "name": "円",
+            "meaning": "йена, круг",
+            "kanji_gif": "en.gif",
+            "reading_example_first": "エン",
+            "reading_example_second": "ー",
+            "words_example": "円\r\n五千円\r\n百円",
+            "words_translated_example": "Йена\r\n5000 йен\r\n100 йен",
+            "transcription": "えん\r\nご・せん・えん\r\nひゃく・えん",
+            "lesson": 3,
+            "added": "2021-08-10T15:52:02.368Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 35,
+        "fields": {
+            "name": "年",
+            "meaning": "год",
+            "kanji_gif": "toshi.gif",
+            "reading_example_first": "ネン",
+            "reading_example_second": "とし",
+            "words_example": "年上\r\n去年\r\n来年\r\n今年",
+            "words_translated_example": "Старший\r\nПрошлый год\r\nСлед. год\r\nЭтот год",
+            "transcription": "とし・うえ\r\nきょ・ねん\r\nらい・ねん\r\nこ・とし",
+            "lesson": 3,
+            "added": "2021-08-10T15:54:22.215Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 36,
+        "fields": {
+            "name": "上",
+            "meaning": "над, на, сверху",
+            "kanji_gif": "ue.gif",
+            "reading_example_first": "ジョウ",
+            "reading_example_second": "うえ、のぼ<span class = \"red\">る</span>\r\nあ<span class = \"red\">がる</span>／あ<span class = \"red\">げる</span>",
+            "words_example": "上\r\n上る\r\n上がる\r\n上手",
+            "words_translated_example": "Над, на\r\nПодниматься\r\nПоднимать\r\nУмелый",
+            "transcription": "うえ\r\nのぼ・る\r\nあ・がる\r\nじょう・ず",
+            "lesson": 4,
+            "added": "2021-08-11T05:09:01.368Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 37,
+        "fields": {
+            "name": "下",
+            "meaning": "под, снизу",
+            "kanji_gif": "shita.gif",
+            "reading_example_first": "カ、ゲ",
+            "reading_example_second": "した、くだ<span class = \"red\">る</span>\r\nさ<span class = \"red\">がる</span>／さ<span class = \"red\">げる</span>",
+            "words_example": "下\r\n年下\r\n下がる\r\n下車する",
+            "words_translated_example": "Под, снизу\r\nМладше\r\nСпускаться\r\nВысаживаться",
+            "transcription": "した\r\nとし・した\r\nさ・がる\r\nげ・しゃ・する",
+            "lesson": 4,
+            "added": "2021-08-11T05:16:11.232Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 38,
+        "fields": {
+            "name": "中",
+            "meaning": "внутри, середина",
+            "kanji_gif": "naka.gif",
+            "reading_example_first": "チュウ、-ジュウ",
+            "reading_example_second": "なか",
+            "words_example": "中\r\n一日中\r\n中心",
+            "words_translated_example": "Внутри\r\nВесь день\r\nЦентр",
+            "transcription": "なか\r\nいち・にち・じゅう\r\nちゅう・しん",
+            "lesson": 4,
+            "added": "2021-08-11T05:18:42.670Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 39,
+        "fields": {
+            "name": "大",
+            "meaning": "большой",
+            "kanji_gif": "ookii.gif",
+            "reading_example_first": "ダイ、タイ",
+            "reading_example_second": "おお<span class = \"red\">きい</span>",
+            "words_example": "大きい\r\n大切な\r\n大学\r\n*大人",
+            "words_translated_example": "Большой\r\nВажный\r\nУниверситет\r\nВзрослый",
+            "transcription": "おお・きい\r\nたい・せつ・な\r\nだい・がく\r\nおとな",
+            "lesson": 4,
+            "added": "2021-08-11T05:21:03.451Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 40,
+        "fields": {
+            "name": "小",
+            "meaning": "маленький",
+            "kanji_gif": "chiisai.gif",
+            "reading_example_first": "ショウ",
+            "reading_example_second": "ちい<span class = \"red\">さい</span>、こ／お",
+            "words_example": "小さい\r\n小学校\r\n小川",
+            "words_translated_example": "Маленький\r\nМладшая школа\r\nРучей",
+            "transcription": "ちい・さい\r\nしょう・がっ・こう\r\nお・がわ",
+            "lesson": 4,
+            "added": "2021-08-11T05:25:12.635Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 41,
+        "fields": {
+            "name": "本",
+            "meaning": "корни, основы",
+            "kanji_gif": "hon.gif",
+            "reading_example_first": "ホン",
+            "reading_example_second": "もと",
+            "words_example": "山本\r\n本日\r\n本\r\n本店",
+            "words_translated_example": "Японская фамилия\r\nЭтот день\r\nКнига\r\nГлавный филиал",
+            "transcription": "やま・もと\r\nほん・じつ\r\nほん\r\nほん・てん",
+            "lesson": 4,
+            "added": "2021-08-11T05:27:34.798Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 42,
+        "fields": {
+            "name": "半",
+            "meaning": "половина",
+            "kanji_gif": "han.gif",
+            "reading_example_first": "ハン",
+            "reading_example_second": "(なか<span class = \"red\">ば</span>)",
+            "words_example": "半ば\r\n半年\r\n半分\r\n三時半",
+            "words_translated_example": "Середина\r\nПолгода\r\nПоловина\r\n3 : 30",
+            "transcription": "なか・ば\r\nはん・とし\r\nはん・ぶん\r\nさん・じ・はん",
+            "lesson": 4,
+            "added": "2021-08-11T05:29:40.981Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 43,
+        "fields": {
+            "name": "分",
+            "meaning": "часть, минута",
+            "kanji_gif": "fun.gif",
+            "reading_example_first": "フン／プン、ブン／ブ",
+            "reading_example_second": "わ<span class = \"red\">かれる</span>／わ<span class = \"red\">かる</span>\r\nわ<span class = \"red\">ける</span>",
+            "words_example": "分ける\r\n五分\r\n分かる\r\n六分",
+            "words_translated_example": "Делить\r\nПять минут\r\nПонимать\r\nШесть минут",
+            "transcription": "わ・ける\r\nご・ふん\r\nわ・かる\r\nろっ・ぷん",
+            "lesson": 4,
+            "added": "2021-08-11T05:33:46.157Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 44,
+        "fields": {
+            "name": "力",
+            "meaning": "сила, мощность",
+            "kanji_gif": "chikara.gif",
+            "reading_example_first": "リョク、リキ",
+            "reading_example_second": "ちから",
+            "words_example": "力\r\n力学\r\n実力",
+            "words_translated_example": "Сила\r\nМеханика\r\nСпособность",
+            "transcription": "ちから\r\nりき・がく\r\nじつ・りょく",
+            "lesson": 4,
+            "added": "2021-08-22T09:26:41.402Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 45,
+        "fields": {
+            "name": "何",
+            "meaning": "что",
+            "kanji_gif": "nani.gif",
+            "reading_example_first": "カ",
+            "reading_example_second": "なに／なん",
+            "words_example": "何\r\n何人\r\n何ですか。\r\n何年",
+            "words_translated_example": "Что\r\nСколько человек\r\nЧто это?\r\nКакой год",
+            "transcription": "なに\r\nなん・にん\r\nなん・ですか。\r\nなん・ねん",
+            "lesson": 4,
+            "added": "2021-08-22T09:29:23.952Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 46,
+        "fields": {
+            "name": "明",
+            "meaning": "светлый, свет",
+            "kanji_gif": "akarui.gif",
+            "reading_example_first": "メイ",
+            "reading_example_second": "あか<span class = \"red\">るい</span>、あ<span class = \"red\">ける</span>",
+            "words_example": "明るい\r\n明ける",
+            "words_translated_example": "Светлый\r\n(Рас)светать",
+            "transcription": "あか・るい\r\nあ・ける",
+            "lesson": 5,
+            "added": "2021-08-22T16:53:30.117Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 47,
+        "fields": {
+            "name": "休",
+            "meaning": "отдых",
+            "kanji_gif": "yasumi.gif",
+            "reading_example_first": "キュウ",
+            "reading_example_second": "やす<span class = \"red\">む</span>",
+            "words_example": "休む\r\n休日\r\n休み",
+            "words_translated_example": "Отдыхать\r\nВыходной (праздник)\r\nПерерыв, отдых",
+            "transcription": "やす・む\r\nきゅう・じつ\r\nやす・み",
+            "lesson": 5,
+            "added": "2021-08-22T16:56:14.029Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 48,
+        "fields": {
+            "name": "体",
+            "meaning": "тело",
+            "kanji_gif": "karada.gif",
+            "reading_example_first": "タイ",
+            "reading_example_second": "からだ",
+            "words_example": "体\r\n体力\r\n体育",
+            "words_translated_example": "Тело\r\nФизическая сила\r\nФизкультура",
+            "transcription": "からだ\r\nたい・りょく\r\nたい・いく",
+            "lesson": 5,
+            "added": "2021-08-22T16:57:56.012Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 49,
+        "fields": {
+            "name": "好",
+            "meaning": "любить, симпатизировать",
+            "kanji_gif": "suki.gif",
+            "reading_example_first": "コウ",
+            "reading_example_second": "す<span class = \"red\">きな</span>、す<span class = \"red\">く</span>",
+            "words_example": "好きな\r\n好かれる",
+            "words_translated_example": "Любимый\r\nБыть любимым",
+            "transcription": "す・きな\r\nす・かれる",
+            "lesson": 5,
+            "added": "2021-08-22T17:00:10.814Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 50,
+        "fields": {
+            "name": "男",
+            "meaning": "мужчина",
+            "kanji_gif": "otoko.gif",
+            "reading_example_first": "ナン、ダン",
+            "reading_example_second": "おとこ",
+            "words_example": "男\r\n男子学生\r\n男の子",
+            "words_translated_example": "Мужчина\r\nСтудент (парень)\r\nМальчик",
+            "transcription": "おとこ\r\nだん・し・がく・せい\r\nおとこ・の・こ",
+            "lesson": 5,
+            "added": "2021-08-22T17:02:31.716Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 51,
+        "fields": {
+            "name": "林",
+            "meaning": "роща",
+            "kanji_gif": "hayashi.gif",
+            "reading_example_first": "リン",
+            "reading_example_second": "はやし",
+            "words_example": "林\r\n林業\r\n小林",
+            "words_translated_example": "Роща\r\nЛесная промышленность\r\nЯпонская фамилия",
+            "transcription": "はやし\r\nりん・ぎょう\r\nこ・ばやし",
+            "lesson": 5,
+            "added": "2021-08-22T17:05:35.878Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 52,
+        "fields": {
+            "name": "森",
+            "meaning": "лес",
+            "kanji_gif": "mori.gif",
+            "reading_example_first": "シン",
+            "reading_example_second": "もり",
+            "words_example": "森\r\n森林\r\n森田",
+            "words_translated_example": "Лес\r\nЛеса и рощи\r\nЯпонская фамилия",
+            "transcription": "もり\r\nしん・りん\r\nもり・た",
+            "lesson": 5,
+            "added": "2021-08-22T17:12:45.780Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 53,
+        "fields": {
+            "name": "間",
+            "meaning": "между, промежуток",
+            "kanji_gif": "aida.jpg",
+            "reading_example_first": "カン",
+            "reading_example_second": "あいだ、ま",
+            "words_example": "間\r\n一年間\r\n間に合う\r\n時間",
+            "words_translated_example": "Между\r\nВ течение года\r\nУспевать\r\nВремя",
+            "transcription": "あいだ\r\nいち・ねん・かん\r\nま・に・あ・う\r\nじ・かん",
+            "lesson": 5,
+            "added": "2021-08-22T17:16:10.577Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 54,
+        "fields": {
+            "name": "畑",
+            "meaning": "суходольное поле",
+            "kanji_gif": "hatake.gif",
+            "reading_example_first": "ー",
+            "reading_example_second": "はたけ／はた",
+            "words_example": "畑\r\n田畑",
+            "words_translated_example": "Суходольное поле\r\nРисовое поле",
+            "transcription": "はた・け\r\nた・はた",
+            "lesson": 5,
+            "added": "2021-08-22T17:19:05.977Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 55,
+        "fields": {
+            "name": "岩",
+            "meaning": "скала",
+            "kanji_gif": "iwa.gif",
+            "reading_example_first": "ガン",
+            "reading_example_second": "いわ",
+            "words_example": "岩\r\n岩石\r\n岩山",
+            "words_translated_example": "Скала\r\nСкалы и камни\r\nСкалистая гора",
+            "transcription": "いわ\r\nがん・せき\r\nいわ・やま",
+            "lesson": 5,
+            "added": "2021-08-22T17:20:30.639Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 56,
+        "fields": {
+            "name": "目",
+            "meaning": "глаз",
+            "kanji_gif": "me.gif",
+            "reading_example_first": "モク",
+            "reading_example_second": "め",
+            "words_example": "目\r\n目次\r\n目上",
+            "words_translated_example": "Глаз\r\nОглавление\r\nНачальство",
+            "transcription": "め\r\nめ・じつ\r\nめ・うえ",
+            "lesson": 6,
+            "added": "2021-08-22T17:33:53.039Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 57,
+        "fields": {
+            "name": "耳",
+            "meaning": "ухо",
+            "kanji_gif": "mimi.gif",
+            "reading_example_first": "ジ",
+            "reading_example_second": "みみ",
+            "words_example": "耳\r\n耳鼻科",
+            "words_translated_example": "Ухо\r\nОтоларингология",
+            "transcription": "みみ\r\nじ・び・か",
+            "lesson": 6,
+            "added": "2021-08-22T17:35:41.966Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 58,
+        "fields": {
+            "name": "手",
+            "meaning": "рука",
+            "kanji_gif": "te.gif",
+            "reading_example_first": "シュ",
+            "reading_example_second": "て",
+            "words_example": "手\r\n上手な\r\n手紙\r\n下手",
+            "words_translated_example": "Рука\r\nУмелый\r\nПисьмо\r\nНеумелый",
+            "transcription": "て\r\nじょう・ず・な\r\nて・がみ\r\nへ・た",
+            "lesson": 6,
+            "added": "2021-08-22T17:37:11.125Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 59,
+        "fields": {
+            "name": "足",
+            "meaning": "нога, суф. пары",
+            "kanji_gif": "ashi.gif",
+            "reading_example_first": "ソク",
+            "reading_example_second": "あし、たり<span class = \"red\">る</span>／た<span class = \"red\">す</span>",
+            "words_example": "足\r\n二足\r\n足りる",
+            "words_translated_example": "Нога\r\nДве пары\r\nБыть достаточным",
+            "transcription": "あし\r\nに・そく\r\nた・りる",
+            "lesson": 6,
+            "added": "2021-08-22T17:39:06.209Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 60,
+        "fields": {
+            "name": "雨",
+            "meaning": "дождь",
+            "kanji_gif": "ame.gif",
+            "reading_example_first": "ウ",
+            "reading_example_second": "あめ",
+            "words_example": "雨\r\n雨天",
+            "words_translated_example": "Дождь\r\nДождливая погода",
+            "transcription": "あめ\r\nう・てん",
+            "lesson": 6,
+            "added": "2021-08-22T17:40:09.946Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 61,
+        "fields": {
+            "name": "竹",
+            "meaning": "бамбук",
+            "kanji_gif": "take.gif",
+            "reading_example_first": "チク",
+            "reading_example_second": "たけ",
+            "words_example": "竹\r\n竹田\r\n竹の子",
+            "words_translated_example": "Бамбук\r\nЯпонская фамилия\r\nПобег бамбука",
+            "transcription": "たけ\r\nたけ・だ\r\nたけ・の・こ",
+            "lesson": 6,
+            "added": "2021-08-22T17:41:55.602Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 62,
+        "fields": {
+            "name": "米",
+            "meaning": "рис",
+            "kanji_gif": "kome.gif",
+            "reading_example_first": "ベイ、マイ",
+            "reading_example_second": "こめ",
+            "words_example": "米\r\n米国\r\n中米",
+            "words_translated_example": "Рис\r\nСША\r\nЦентральная Америка",
+            "transcription": "こめ\r\nべい・こく\r\nちゅう・べい",
+            "lesson": 6,
+            "added": "2021-08-22T17:43:27.771Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 63,
+        "fields": {
+            "name": "貝",
+            "meaning": "ракушка",
+            "kanji_gif": "kai.gif",
+            "reading_example_first": "(バイ)",
+            "reading_example_second": "かい",
+            "words_example": "貝\r\n貝がら",
+            "words_translated_example": "Моллюск (раковина)\r\nРакушка",
+            "transcription": "かい\r\nかい・がら",
+            "lesson": 6,
+            "added": "2021-08-22T17:45:44.283Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 64,
+        "fields": {
+            "name": "石",
+            "meaning": "камень",
+            "kanji_gif": "ishi.gif",
+            "reading_example_first": "セキ",
+            "reading_example_second": "いし",
+            "words_example": "石\r\n石油\r\n石川\r\n化石",
+            "words_translated_example": "Камень\r\nБензин, нефть\r\nЯпонская фамилия\r\nИскопаемое",
+            "transcription": "いし\r\nせき・ゆ\r\nいし・かわ\r\nか・せき",
+            "lesson": 6,
+            "added": "2021-08-22T17:47:34.589Z"
+        }
+    },
+    {
+        "model": "wakaranai.kanji",
+        "pk": 65,
+        "fields": {
+            "name": "糸",
+            "meaning": "нить",
+            "kanji_gif": "ito.gif",
+            "reading_example_first": "シ",
+            "reading_example_second": "いと",
+            "words_example": "糸\r\n毛糸",
+            "words_translated_example": "Нить\r\nПряжа",
+            "transcription": "いと\r\nけ・いと",
+            "lesson": 6,
+            "added": "2021-08-22T17:48:40.796Z"
+        }
+    }
+]
