@@ -99,6 +99,61 @@ html {
  .hidden {
       display: none;
  }
+ .mail-form__container {
+     position: absolute;
+     top: 50%;
+     min-width: 280px;
+     max-width: 500px;
+     height: 370px;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     z-index: 10;
+     transform: translate(0, -135px);
+     background-color: wheat;
+     border-radius: 10px;
+     border: 5px solid #ac3232;
+     box-sizing: border-box;
+     opacity: 0;
+ }
+ .mail-form {
+     margin: 0 20px;
+     text-align: center;
+
+ }
+ .mail-form__input {
+     margin: 0 auto;
+     min-width: 220px;
+     height: 20px;
+     display: block;
+     margin-top: 20px;
+     font-family: 'Pixelant';
+     font-size: 16px;
+     border: 2px solid #ac3232;
+ }
+ .mail-form__input_message {
+    margin: 0 auto;
+    display: block;
+    min-width: 220px;
+    height: 150px;
+    margin-top: 20px;
+    resize: none;
+    font-family: 'Pixelant';
+    font-size: 16px;
+    border: 2px solid #ac3232;
+    
+ }
+ .mail-form__button {
+    min-width: 225px;
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+    background-color: #ac3232;
+    border: 1px solid #000;
+    font-family: 'Pixelant';
+    font-size: 20px;
+
+ }
  header {
          box-shadow: 0 0 10px 1px #00000033;
          width: 100%;
@@ -430,7 +485,9 @@ html {
      #menu-button {
          display: block;
      }
-     
+     .mail-form__container {
+         margin: 0 20px;
+     }
  }
 
  @media (max-width: 340px){
