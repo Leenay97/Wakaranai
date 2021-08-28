@@ -8,7 +8,7 @@ $(function(){
 		$('#lock-screen').animate({opacity: "0"}, 200);
 		setTimeout('$("#lock-screen").hide()', 200);
 	});*/
-
+	
 		$('#menu-button').on('click', function(){
 			$('#menu-small').toggleClass('hidden');
 			$('html').toggleClass('noscroll');
@@ -31,4 +31,4 @@ $(function(){
 			$('.mail-form__container').addClass('hidden');
 			}, 1000);
 		});
-	}}
+});
