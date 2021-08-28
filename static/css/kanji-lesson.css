@@ -6,6 +6,11 @@
     width: 30px;
 	margin: 0;
 }
+.red {
+    color: #9bcac7;
+    color: #ac3232;
+    
+}
 #main-container {
     margin-bottom: 30px;
 }

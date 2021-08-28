@@ -23,7 +23,7 @@ class Kanji(models.Model):
     meaning = models.CharField(max_length=50, blank=True, null=True)
     kanji_gif = models.CharField(max_length=50, blank=True, null=True)
     reading_example_first = models.TextField(max_length=50, blank=True, null=True)
-    reading_example_second = models.TextField(max_length=50, blank=True, null=True)
+    reading_example_second = models.TextField(max_length=250, blank=True, null=True)
     words_example = models.TextField(max_length=50, null=True, blank=True)
     words_translated_example = models.TextField(max_length=100, null=True, blank=True)
     transcription = models.TextField(max_length=50, null=True, blank=True)

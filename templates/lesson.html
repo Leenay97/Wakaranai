@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+
 {% load static %}
 
 {% block title %}BKB1 Lesson 1{% endblock %}
@@ -28,14 +29,20 @@
                 
                 <input type="range" name="" class="curtain hidden">
                 <img class="kanji-gif" data-gifffer="{% static 'kanji%20gif/' %}{{ kanji.kanji_gif }}" data-gifffer-width="150" data-gifffer-height="150"/>
+                
+                    
+
                 <div class="read">
                     <div class="on">
                         {{ kanji.reading_example_first | linebreaks}}
                     </div>
-                    <div class="kun">
+                    {% autoescape off %}
+                    <div class="kun"> 
                         {{ kanji.reading_example_second | linebreaks}}
                     </div>
+                    {% endautoescape %}
                 </div>
+                
                 <div class="examples">
                     <div class="kanji">
                         {{ kanji.words_example | linebreaks}}
