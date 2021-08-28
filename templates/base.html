@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 {% load static %}
 <html>
+
 <head>
-	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}"/>
+	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
 	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
 	<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
-	
-    {% block headers %}
-    {% endblock %}
-	
+
+	{% block headers %}
+	{% endblock %}
+
 	<title>{% block title %}{% endblock %}</title>
-	
+
 
 </head>
+
 <body>
 	<div id="lock-screen" class="hidden"></div>
 	<div class="mail-form__container hidden">
@@ -21,37 +23,50 @@
 			<form action="https://formspree.io/f/xgerrwlj" method="post">
 				<input class="mail-form__input" type="text" name="name" placeholder=" Имя" required>
 				<input class="mail-form__input" type="email" name="email" placeholder=" Почта" required>
-				<textarea class="mail-form__input_message" type="text" name="message" placeholder=" Сообщение" required></textarea>
+				<textarea class="mail-form__input_message" type="text" name="message" placeholder=" Сообщение"
+					required></textarea>
 				<input class="mail-form__button" type="submit" value="Отправить">
 			</form>
 		</div>
 	</div>
-	
+
 	<header>
 		<nav class="fixed-container">
 			<button id="menu-button" class="hidden"></button>
 			<a href="/" id="logo-wrapper"><img id="logo" src="{% static 'img/logo-long.png' %}"></a>
-			<a href="#"><div>Лексика</div></a>
-			<a href="/kanji"><div>Кандзи</div></a>
-			<a href="#"><div>Грамматика</div></a>
+			<a href="#">
+				<div>Лексика</div>
+			</a>
+			<a href="/kanji">
+				<div>Кандзи</div>
+			</a>
+			<a href="#">
+				<div>Грамматика</div>
+			</a>
 			<button id="doge-button"></button>
 		</nav>
 	</header>
 	<main>
-		
+
 		<!--<div id="hello">
 			<img id="img" src="{% static 'img/doge2.gif' %}">
 			<button id="close"></button>
 		</div>-->
 		<div id="menu-small" class="hidden">
-			<a href="#"><div>Лексика</div></a>
-			<a href="/kanji"><div>Кандзи</div></a>
-			<a href="#"><div>Грамматика</div></a>
+			<a href="#">
+				<div>Лексика</div>
+			</a>
+			<a href="/kanji">
+				<div>Кандзи</div>
+			</a>
+			<a href="#">
+				<div>Грамматика</div>
+			</a>
 		</div>
 
-        {% block main %}
+		{% block main %}
 
-        {% endblock %}
+		{% endblock %}
 
 	</main>
 	<footer id="footer">
@@ -65,7 +80,7 @@
 				</ul>
 			</div>
 			<div id="footer__info_feedback">
-					<button class="footer__info_feedback-button">Обратная связь</button>
+				<button class="footer__info_feedback-button">Обратная связь</button>
 			</div>
 			<div id="footer__info_contacts">
 				<div id="footer__info_contacts-vk">
@@ -81,4 +96,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>

@@ -4,38 +4,38 @@
 {% block title %}Кандзи{% endblock %}
 
 {% block headers %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji-media.css' %}">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <script type="text/javascript" src="{% static 'js/kanji.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/kanji.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/kanji-media.css' %}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="{% static 'js/kanji.js' %}"></script>
 {% endblock %}
 
 {% block main %}
-    <div class="fixed-container">
-        {% if context %}
-            <div class="book">
-            {% for item in context %}
-                <div class="book__title">
-                    <h1>{{ item.book.title }}</h1>
-                    <img class="hide" src="{% static 'img/hide-button.png' %}">
+<div class="fixed-container">
+    {% if context %}
+    <div class="book">
+        {% for item in context %}
+        <div class="book__title">
+            <h1>{{ item.book.title }}</h1>
+            <img class="hide" src="{% static 'img/hide-button.png' %}">
+        </div>
+        <div id="lessons-container">
+            {% for lesson in item.lessons %}
+            <a href="lesson/{{ lesson.id }}">
+                <div class="lesson">
+                    <div class="lesson-name">Lesson {{ lesson.lesson_number }}</div>
+                    <div class="kanji-container">
+                        {{ lesson.kanji_example }}
+                    </div>
                 </div>
-                <div id="lessons-container">
-                    {% for lesson in item.lessons %}
-                        <a href="lesson/{{ lesson.id }}">
-                            <div class="lesson">
-                                <div class="lesson-name">Lesson {{ lesson.lesson_number }}</div>
-                                <div class="kanji-container">
-                                    {{ lesson.kanji_example }}
-                                </div>
-                            </div>
-                        </a>
-                    {% endfor %}
-                </div>
-            </div>
+            </a>
             {% endfor %}
-        {% else %}
-            <p>пока ничего нет :(</p>
-        {% endif %}
+        </div>
     </div>
+    {% endfor %}
+    {% else %}
+    <p>пока ничего нет :(</p>
+    {% endif %}
+</div>
 {% endblock %}

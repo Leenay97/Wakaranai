@@ -36,7 +36,7 @@
         width: 70px;
     }
     .transcription {
-        max-width: 200px;
+        width: 180px;
         text-align: center;
         color: #333333aa;
     }
@@ -66,10 +66,6 @@
     .transcription > .arrow {
         display: block;
     }
-    .translation {
-    }
-    
-
     .examples {
         justify-content: space-between;
     }

@@ -5,59 +5,60 @@
 {% block title %}BKB1 Lesson 1{% endblock %}
 
 {% block headers %}
-    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji-lesson.css' %}">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/kanji-lesson-media.css' %}">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <script type="text/javascript" src="{% static 'js/giffer.min.js' %}"></script>
-    <script type="text/javascript" src="{% static 'js/lesson.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/kanji-lesson.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/kanji-lesson-media.css' %}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="{% static 'js/giffer.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/lesson.js' %}"></script>
 {% endblock %}
 
 {% block main %}
-    <div id="main-container" class="fixed-container">
-        <h1>Lesson {{ lesson_number }}</h1>
-        {% for kanji in kanjis %}
-        <div class="lesson-kanji-container">
-            <div class="lesson-header">
-                <img class="hide" src="{% static 'img/hide-button.png' %}">
-                <img class="curtain-button" src="{% static 'img/curtain-icon.png' %}">
-                <div class="header-name">{{ kanji.name}} - {{ kanji.meaning}}</div>
+<div id="main-container" class="fixed-container">
+    <h1>Lesson {{ lesson_number }}</h1>
+    {% for kanji in kanjis %}
+    <div class="lesson-kanji-container">
+        <div class="lesson-header">
+            <img class="hide" src="{% static 'img/hide-button.png' %}">
+            <img class="curtain-button" src="{% static 'img/curtain-icon.png' %}">
+            <div class="header-name">{{ kanji.name}} - {{ kanji.meaning}}</div>
+        </div>
+
+        <div class="lesson-content">
+
+
+            <input type="range" name="" class="curtain hidden">
+            <img class="kanji-gif" data-gifffer="{% static 'kanji%20gif/' %}{{ kanji.kanji_gif }}"
+                data-gifffer-width="150" data-gifffer-height="150" />
+
+
+
+            <div class="read">
+                <div class="on">
+                    {{ kanji.reading_example_first | linebreaks}}
+                </div>
+                {% autoescape off %}
+                <div class="kun">
+                    {{ kanji.reading_example_second | linebreaks}}
+                </div>
+                {% endautoescape %}
             </div>
 
-            <div class="lesson-content">
-                
-                
-                <input type="range" name="" class="curtain hidden">
-                <img class="kanji-gif" data-gifffer="{% static 'kanji%20gif/' %}{{ kanji.kanji_gif }}" data-gifffer-width="150" data-gifffer-height="150"/>
-                
-                    
-
-                <div class="read">
-                    <div class="on">
-                        {{ kanji.reading_example_first | linebreaks}}
-                    </div>
-                    {% autoescape off %}
-                    <div class="kun"> 
-                        {{ kanji.reading_example_second | linebreaks}}
-                    </div>
-                    {% endautoescape %}
+            <div class="examples">
+                <div class="kanji">
+                    {{ kanji.words_example | linebreaks}}
                 </div>
-                
-                <div class="examples">
-                    <div class="kanji">
-                        {{ kanji.words_example | linebreaks}}
-                    </div>
-                    <div class="transcription">
-                        <img class="arrow hidden" src="{% static 'img/arrow-kanji.png' %}">
-                        {{ kanji.transcription | linebreaks}}
-                    </div>
-                    <div class="translation">
-                        <img class="arrow hidden" src="{% static 'img/arrow-kanji.png' %}">
-                        {{ kanji.words_translated_example | linebreaks}}
-                    </div>
+                <div class="transcription">
+                    <img class="arrow hidden" src="{% static 'img/arrow-kanji.png' %}">
+                    {{ kanji.transcription | linebreaks}}
+                </div>
+                <div class="translation">
+                    <img class="arrow hidden" src="{% static 'img/arrow-kanji.png' %}">
+                    {{ kanji.words_translated_example | linebreaks}}
                 </div>
             </div>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
+</div>
 {% endblock %}

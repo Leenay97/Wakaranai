@@ -4,37 +4,38 @@
 {% block title %}Wakaranai{% endblock %}
 
 {% block headers %}
-	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-	<link rel="stylesheet" type="text/css" href="{% static 'css/media.css' %}">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/media.css' %}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
 {% endblock %}
 
 {% block main %}
-	<div id="header-space"></div>
-	<div id="sakura-wrapper">
-		<div id="sakura-background">
-			<img id="sakura" src ="{% static 'img/sakura5.gif' %}">
-			<img class="cloud" src ="{% static 'img/cloud.png' %}" hidden>
-			<div id="sakura-logo">
-				<div id="sakura-logo__container">
-					<img id="sakura-logo_waka" src ="{% static 'img/logo-waka.png' %}">
-					<img id="sakura-logo_ranai" src ="{% static 'img/logo-ranai-w.png' %}">
-				</div>
+<div id="header-space"></div>
+<div id="sakura-wrapper">
+	<div id="sakura-background">
+		<img id="sakura" src="{% static 'img/sakura5.gif' %}">
+		<img class="cloud" src="{% static 'img/cloud.png' %}" hidden>
+		<div id="sakura-logo">
+			<div id="sakura-logo__container">
+				<img id="sakura-logo_waka" src="{% static 'img/logo-waka.png' %}">
+				<img id="sakura-logo_ranai" src="{% static 'img/logo-ranai-w.png' %}">
 			</div>
-			<div id="sakura-text"></div>
 		</div>
+		<div id="sakura-text"></div>
 	</div>
-	<div id="title" style="background-color: transparent;">Твоя книжная полка</div>
-	<div id="whiteboard">
-		<div style="background-color: white; width: 100%;">
+</div>
+<div id="title" style="background-color: transparent;">Твоя книжная полка</div>
+<div id="whiteboard">
+	<div style="background-color: white; width: 100%;">
 		<div class="fixed-container" id="info-container">
 			<div class="info-container_unit">
 				<img class="info-container_unit_img" src="{% static 'img/kanji-logo.png' %}" style="display: block;">
 				<h1>Кандзи</h1>
-				 <p>В разделе "Кандзи" можно найти учебники по иероглифике. На данный момент добавлены: <br> ・Basic Kanji Book I</p>
+				<p>В разделе "Кандзи" можно найти учебники по иероглифике. На данный момент добавлены: <br> ・Basic Kanji
+					Book I</p>
 			</div>
 			<div class="info-container_unit">
 				<img class="info-container_unit_img" src="{% static 'img/lexics-logo.png' %}" style="display: block;">
@@ -42,15 +43,14 @@
 				<p>Скоро здесь что-нибудь будет... Наверное.</p>
 			</div>
 			<div class="info-container_unit">
-				
+
 				<img class="info-container_unit_img" src="{% static 'img/bunpo-logo.png' %}" style="display: block;">
 				<h1>Грамматика</h1>
 				<p>Скоро здесь что-нибудь будет... Наверное.</p>
 			</div>
 
 		</div>
-		</div>
 	</div>
+</div>
 
 {% endblock %}
-
