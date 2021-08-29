@@ -6,6 +6,7 @@
 	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
 	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/preloader.js' %}"></script>
 	
 	
     {% block headers %}
@@ -17,8 +18,14 @@
 </head>
 
 <body>
-	{% block preloader %}
-    {% endblock %}
+	<div class="preloader">
+		<div class="loader">
+			
+		</div>
+		<div id="loadperc">
+
+		</div>
+	</div>
 	<div id="lock-screen" class="hidden"></div>
 	<div class="mail-form__container hidden">
 		<div class="mail-form">
