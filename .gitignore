@@ -2,3 +2,6 @@ venv/*
 /db.sqlite3
 wakaranai/migrations
 wakaranai/__pycache__
+wakaranai/__pycache__/models.cpython-37.pyc
+wakaranai/__pycache__/urls.cpython-37.pyc
+wakaranai/__pycache__/views.cpython-37.pyc
