@@ -5,6 +5,12 @@
     }
 }
 @media (max-width: 1129px){
+    .curtain-button{
+        display: none;
+    }
+    .header-name {
+        padding-left: 40px;
+    }
     .lesson-content {
         flex-wrap: wrap;
     }
