@@ -1,0 +1,34 @@
+.preloader {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 997;
+	position: fixed;
+	background: white url('../img/doge2.gif') center no-repeat;
+	opacity: 1;
+    overflow: hidden;
+}
+.loader {
+	position: fixed;
+	width: 0px;
+	height: 7px;
+	background-color: #ac3232;
+	left: 50%;
+	top: 50%;
+	transform: translate(-120px, 90px);
+	max-width: 240px;
+	z-index: 999;
+
+}
+#loadperc {
+	position: fixed;
+	width: 240px;
+	height: 7px;
+	background-color: #ac323233;
+	left: 50%;
+	top: 50%;
+	transform: translate(-120px, 90px);
+	max-width: 280px;
+	z-index: 998;
+}
+    
