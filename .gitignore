@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-venv/*
-/db.sqlite3
-wakaranai/migrations
-wakaranai/__pycache__
-wakaranai/__pycache__/models.cpython-37.pyc
-wakaranai/__pycache__/urls.cpython-37.pyc
-wakaranai/__pycache__/views.cpython-37.pyc
-core/__pycache__/settings.cpython-37.pyc
-core/__pycache__/settings.cpython-37.pyc
-.gitignore
-.env
-=======
 # Created by https://www.gitignore.io
 
 ### OSX ###
@@ -100,4 +87,3 @@ local_settings.py
 
 .env
 db.sqlite3
->>>>>>> dev
