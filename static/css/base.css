@@ -71,6 +71,15 @@
          url('../fonts/sawarabi-gothic-v8-japanese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/sawarabi-gothic-v8-japanese-regular.svg#SawarabiGothic') format('svg'); /* Legacy iOS */
   }
+.coming-soon {
+    display: block;
+    z-index: 30;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 40px;
+    right: -25px;
+    opacity: 0.7;
+}
 html {
      font-family: 'Pixelant';
       overflow-x: hidden;
@@ -185,6 +194,8 @@ html {
      padding-bottom: 10px;
      display: inline-block;
      box-sizing: border-box;
+     overflow: hidden;
+     position: relative;
  
  }
  nav div:hover {
@@ -193,8 +204,10 @@ html {
      height: 60px;
  }
  nav a {
+     display: block;
      color: black;
-     font-size: 24px;   
+     font-size: 24px; 
+     overflow: hidden; 
  }
  #menu-button {
      height: 20px;
