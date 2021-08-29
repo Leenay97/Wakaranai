@@ -4,21 +4,17 @@
 {% block title %}Wakaranai{% endblock %}
 
 {% block headers %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-<link rel="stylesheet" type="text/css" href="{% static 'css/media.css' %}">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/media.css' %}">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="{% static 'js/preloader.js' %}"></script>
 {% endblock %}
 
 {% block preloader %}
 	<div class="preloader">
-		<div class="loader">
-			<div id="load-perc">
-				
-			</div>
-		</div>
+		<div class="loader"></div>
+		<div id="loadperc"></div>
 	</div>
 {% endblock %}
 
@@ -63,4 +59,7 @@
 	</div>
 </div>
 
+{% endblock %}
+{% block script %}
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script> 
 {% endblock %}

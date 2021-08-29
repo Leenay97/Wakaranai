@@ -6,11 +6,11 @@
 	<link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
 	<script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
-	<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
-
-	{% block headers %}
-	{% endblock %}
-
+	
+	
+    {% block headers %}
+    {% endblock %}
+	
 	<title>{% block title %}{% endblock %}</title>
 
 
@@ -18,8 +18,7 @@
 
 <body>
 	{% block preloader %}
-
-	{% endblock %}
+    {% endblock %}
 	<div id="lock-screen" class="hidden"></div>
 	<div class="mail-form__container hidden">
 		<div class="mail-form">
@@ -99,5 +98,8 @@
 		</div>
 	</footer>
 </body>
+<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+	{% block script %}
 
+    {% endblock %}
 </html>
