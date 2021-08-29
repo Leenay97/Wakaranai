@@ -41,6 +41,9 @@
     .kanji {
         width: 70px;
     }
+    .translation {
+        line-height: 1.65em;;
+    }
     .transcription {
         width: 180px;
         text-align: center;
