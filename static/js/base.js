@@ -1,4 +1,7 @@
 $(function(){
+
+	var width = $(window).width();
+	console.log(width);
 	/*$('#doge-button').on('click', function(){
 		$('#lock-screen').css('display', 'block');
 		$('#lock-screen').animate({opacity: "1"}, 500);
@@ -30,5 +33,14 @@ $(function(){
 			setTimeout(function(){
 			$('.mail-form__container').addClass('hidden');
 			}, 1000);
+		});
+
+		$(window).on('resize', function(){
+			var newWidth = $(window).width;
+			if (newWidth != width) {
+				$('#menu-small').addClass('hidden');
+				$('html').removeClass('noscroll');
+				$('body').removeClass('noscroll');
+			};
 		});
 });
