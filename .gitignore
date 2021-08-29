@@ -8,3 +8,4 @@ wakaranai/__pycache__/views.cpython-37.pyc
 core/__pycache__/settings.cpython-37.pyc
 core/__pycache__/settings.cpython-37.pyc
 .gitignore
+.env
