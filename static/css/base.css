@@ -93,6 +93,38 @@ html {
      text-decoration: none;
      color: inherit;
  }
+ .preloader {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 997;
+	position: fixed;
+	background: white url('../img/doge2.gif') center no-repeat;
+	opacity: 1;
+}
+.loader {
+	position: fixed;
+	width: 0px;
+	height: 7px;
+	background-color: #ac3232;
+	left: 50%;
+	top: 50%;
+	transform: translate(-120px, 90px);
+	max-width: 240px;
+	z-index: 999;
+
+}
+#loadperc {
+	position: fixed;
+	width: 240px;
+	height: 7px;
+	background-color: #ac323233;
+	left: 50%;
+	top: 50%;
+	transform: translate(-120px, 90px);
+	max-width: 280px;
+	z-index: 998;
+}
  .noscroll {
      overflow: hidden;
  }
@@ -180,17 +212,17 @@ html {
      padding: 20px 30px;
      padding-bottom: 10px;
      display: inline-block;
+     box-sizing: border-box;
  
  }
  nav div:hover {
      border-bottom: 4px solid /*#80aaff*/ #cc0000;
      background-color: #dddddd;
+     height: 60px;
  }
  nav a {
      color: black;
-     font-size: 24px;
- 
-     border: 1px;
+     font-size: 24px;   
  }
  #menu-button {
      height: 20px;
@@ -432,6 +464,11 @@ html {
      header {
          height: 40px;
      }
+     nav div:hover {
+        border-bottom: 4px solid /*#80aaff*/ #cc0000;
+        background-color: #dddddd;
+        height: 40px;
+    }
      #doge-button {
          height: 30px;
          width: 30px;
@@ -464,6 +501,10 @@ html {
      }
  }
  @media (max-width: 585px){
+    #logo-wrapper {
+        height: 30px;
+        margin-right: 0px;
+    }
      nav a:nth-child(3){
          display: none;
      }
