@@ -229,9 +229,6 @@ html {
  #menu-small a {
      color: black;
  }
- #menu-small a:nth-child(2){
-     color: #ac3232 ;
- }
  #logo-wrapper {
      height: 50px;
      margin: auto 0;
