@@ -101,6 +101,7 @@ html {
 	position: fixed;
 	background: white url('../img/doge2.gif') center no-repeat;
 	opacity: 1;
+    overflow: hidden;
 }
 .loader {
 	position: fixed;
