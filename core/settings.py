@@ -149,7 +149,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Sentry
-sentry_dsn = os.environ["SENTRY_DSN"]
+sentry_dsn = os.environ.get("SENTRY_DSN")
 
 if sentry_dsn:
     sentry_sdk.init(
