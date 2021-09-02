@@ -7,9 +7,7 @@ $(document).ready(function () {
 
     $('img').on('load', function (){
         percentAddition = percentAddition + percent;
-        console.log(percentAddition);
         $('.loader').css('width', percentAddition + 'px');
-        console.log( $('.loader').width());
     });
 });
 

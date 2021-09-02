@@ -22,81 +22,79 @@ function logoPosition(top, right, height, bgposition){
 };
 
 if (date.getHours() > 6 || date.getHours() >= 23){
-    $('#sakura-background').css('background-position-y', '-3000px');
     if ($(window).width() >= 1466){
-        logoPosition(-400, 600, 300, -1400);
-        logoMove(100, -100);
+        logoPosition(-400, 600, 300, -2000);
+        logoMove(100, -1600);
         
     }else if ($(window).width() < 1466 && $(window).width() > 1250){
-        logoPosition(-400, 400, 200, -1400);
-        logoMove(150, -100);
+        logoPosition(-400, 400, 200, -2000);
+        logoMove(150, -1600);
 
     }else if ($(window).width() <= 1250 && $(window).width() > 900){
-        logoPosition(700, 400, 200, -1400);
-        logoMove(350, -100);
+        logoPosition(700, 400, 200, -2000);
+        logoMove(350, -1600);
         $('.cloud').remove();
     }else if ($(window).width() <= 900 && $(window).width() > 850){
-        logoPosition(-300, 300, 150, -1400);
-        logoMove(100, -100);
+        logoPosition(-300, 300, 150, -2000);
+        logoMove(100, -1600);
         $('.cloud').remove();
     }else if ($(window).width() <= 850 && $(window).width() > 768){
-        logoPosition(500, 300, 150, -1400);
-        logoMove(230, -400);
+        logoPosition(500, 300, 150, -2000);
+        logoMove(230, -1600);
         $('.cloud').remove();
     }else if ($(window).width() <= 768 && $(window).width() > 585){
-        logoPosition(-250, 180, 100, -1400);
-        logoMove(90, -100);
+        logoPosition(-250, 180, 100, -2000);
+        logoMove(90, -1600);
         $('.cloud').remove();
     }else if ($(window).width() <= 585 && $(window).width() > 495){
-        logoPosition(-180, 160, 80, -1400);
-        logoMove(80, -100);
+        logoPosition(-180, 160, 80, -2000);
+        logoMove(80, -1600);
         $('.cloud').remove();
     }else if ($(window).width() <= 495 && $(window).width() > 360){
-        logoPosition(280, 160, 80, -1400);
-        logoMove(150, -100);
+        logoPosition(280, 160, 80, -2000);
+        logoMove(150, -1600);
         $('.cloud').remove();
     }else if ($(window).width() <= 360){
-        logoPosition(280, 120, 60, -1400);
-        logoMove(170, -100);
+        logoPosition(280, 120, 60, -2000);
+        logoMove(170, -1600);
         $('.cloud').remove();
     };
 }else{
-    $('#sakura-background').css('background-position-y', '-1200px');
     if ($(window).width() >= 1466){
-        logoPosition(700, 600, 300, -900);
-        logoMove(100, -1900);
+        logoPosition(700, 600, 300, -300);
+        logoMove(100, -50);
         
     }else if ($(window).width() < 1466 && $(window).width() > 1250){
-        logoPosition(700, 400, 200, -1400);
-        logoMove(150, -1900);
+        logoPosition(700, 400, 200, -300);
+        logoMove(150, -50);
 
     }else if ($(window).width() <= 1250 && $(window).width() > 900){
-        logoPosition(700, 400, 200, -1400);
-        logoMove(350, -1900);
+        logoPosition(700, 400, 200, -300);
+        logoMove(350, -50);
         $('.cloud').remove();
     }else if ($(window).width() <= 900 && $(window).width() > 850){
-        logoPosition(-300, 300, 150, -1400);
-        logoMove(100, -1900);
+        logoPosition(-300, 300, 150, -300);
+        logoMove(100, -50);
         $('.cloud').remove();
     }else if ($(window).width() <= 850 && $(window).width() > 768){
-        logoPosition(500, 300, 150, -1400);
-        logoMove(230, -1900);
+        logoPosition(500, 300, 150, -300);
+        logoMove(230, -50);
         $('.cloud').remove();
     }else if ($(window).width() <= 768 && $(window).width() > 585){
-        logoPosition(400, 180, 100, -1400);
-        logoMove(90, -1900);
+        logoPosition(400, 180, 100, -300);
+        logoMove(90, -50);
         $('.cloud').remove();
     }else if ($(window).width() <= 585 && $(window).width() > 495){
-        logoPosition(350, 160, 80, -1400);
-        logoMove(80, -1900);
+        logoPosition(350, 160, 80, -300);
+        logoMove(80, -50);
         $('.cloud').remove();
     }else if ($(window).width() <= 495 && $(window).width() > 360){
-        logoPosition(280, 160, 80, -1400);
-        logoMove(150, -1900);
+        logoPosition(280, 160, 80, -300);
+        logoMove(150, -50);
         $('.cloud').remove();
     }else if ($(window).width() <= 360){
-        logoPosition(280, 120, 60, -1400);
-        logoMove(170, -1800);
+        logoPosition(280, 120, 60, -300);
+        logoMove(170, -50);
         $('.cloud').remove();
     };
 };

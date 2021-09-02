@@ -3,7 +3,13 @@ $(function(){
 		$(this).parent().parent().children(".lesson-content").children(".curtain").toggleClass('hidden');
 	});
 
+
 	$('.lesson-header').on('click', function(){
+		$(function(){
+			$('.curtain-button').on('click', function(){
+				return false;
+			});
+		});
 		$(this).parent().children(".lesson-content").slideToggle();
 		$(this).children('.hide').toggleClass('reversed');
 	});

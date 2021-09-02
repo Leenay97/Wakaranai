@@ -10,12 +10,20 @@ nav a:nth-child(4){
 }
 .red {
     color: #9bcac7;
-    color: #ac3232;
-    
-    
+    color: #ac3232; 
+}
+.grey {
+    color: #333333aa;
 }
 #main-container {
     margin-bottom: 30px;
+    position: relative;
+}
+.lesson-arrow {
+    position: absolute;
+    top: 10px;
+    opacity: 0.5;
+    height: 28px;
 }
 main {
     margin-top: 60px;
@@ -44,12 +52,6 @@ main {
       padding-top: 20px;
       box-sizing: border-box;
       font-family: 'Pixelant', 'Kiwi Maru';
-  }
-  .lesson-name {
-      padding-bottom: 15px;
-      border-bottom: 2px solid #22222222;
-      max-width: 160px;
-      margin: 0 auto;
   }
   .lesson:nth-child(4) {
       margin-right: 0;
@@ -143,7 +145,7 @@ main {
   .transcription {
       width: 250px;
       text-align: center;
-      color: #333333aa;
+      color: #000;
       overflow: hidden;
       white-space: nowrap;
       position: relative;

@@ -26,6 +26,6 @@ class Kanji(models.Model):
     reading_example_second = models.TextField(max_length=250, blank=True, null=True)
     words_example = models.TextField(max_length=50, null=True, blank=True)
     words_translated_example = models.TextField(max_length=100, null=True, blank=True)
-    transcription = models.TextField(max_length=50, null=True, blank=True)
+    transcription = models.TextField(max_length=250, null=True, blank=True)
     lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE, null=True)
     added = models.DateTimeField(auto_now_add=True, null=True, blank=True)
