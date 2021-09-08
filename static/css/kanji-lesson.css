@@ -145,7 +145,7 @@ main {
   .transcription {
       width: 250px;
       text-align: center;
-      color: #000;
+      color: #333333aa;
       overflow: hidden;
       white-space: nowrap;
       position: relative;

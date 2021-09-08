@@ -26,7 +26,7 @@ def lesson_page(request, pk):
         "lesson.html",
         {
             "lesson_number": Lesson.objects.get(id=pk).lesson_number,
-            "kanjis": Kanji.objects.filter(lesson_id=pk).values()
+            "kanjis": Kanji.objects.filter(lesson_id=pk).values().order_by('added')
         }
     )
 
