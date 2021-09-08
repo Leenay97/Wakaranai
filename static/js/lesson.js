@@ -131,6 +131,15 @@ $(function(){
 				'background-color':'#efefef'
 			});
 			$('.transcription').children('.arrow').show();
+			$('.translation').css({
+				'width': '180px',
+				'font-family': '"Pixelant"',
+				'line-height': '1.53em',
+				'color': 'black',
+				'border': '0',
+				'background-color':'white'
+			});
+			$('.translation').children('.arrow').hide();
 		};
 	});
 });

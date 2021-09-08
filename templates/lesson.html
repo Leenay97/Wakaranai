@@ -46,12 +46,10 @@
                 <div class="kanji">
                     {{ kanji.words_example | linebreaks}}
                 </div>
-                {% autoescape off %}
                 <div class="transcription">
                     <img class="arrow hidden" src="{% static 'img/arrow-kanji.png' %}">
                     {{ kanji.transcription | linebreaks}}
                 </div>
-                {% endautoescape %}
                 <div class="translation">
                     <img class="arrow hidden" src="{% static 'img/arrow-kanji.png' %}">
                     {{ kanji.words_translated_example | linebreaks}}
