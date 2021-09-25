@@ -54,6 +54,7 @@ class KanjiAdmin(admin.ModelAdmin):
         "words_translated_example",
         "transcription",
         "lesson",
+        
     ]
 
 
