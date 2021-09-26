@@ -21,7 +21,7 @@ function logoPosition(top, right, height, bgposition){
     $('#sakura-logo').css({'right': right + 'px', 'top': top + 'px'});
 };
 
-if (date.getHours() > 6 || date.getHours() >= 23){
+if (date.getHours() < 6 || date.getHours() >= 23){
     if ($(window).width() >= 1466){
         logoPosition(-400, 600, 300, -2000);
         logoMove(100, -1600);
